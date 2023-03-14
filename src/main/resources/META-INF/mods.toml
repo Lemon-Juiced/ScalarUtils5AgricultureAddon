@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[44,)"
+license="All rights reserved"
+
+[[mods]]
+modId="scalar_utils_agriculture_addon"
+version="1.19.3-5.0.0"
+displayName="Scalar Utils 5: Agriculture Addon"
+logoFile="scalarutils5agriculture_addon.png"
+credits="Scalar Team"
+authors="Lemon_Juiced"
+
+description='''
+Fun Overpowered Agriculture That Doesn't Need To Exist In The Main Mod
+'''
+[[dependencies.scalar_utils_agriculture_addon]]
+    modId="forge"
+    mandatory=true
+    versionRange="[44,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.scalar_utils_agriculture_addon]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.3,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.scalar_utils_agriculture_addon]]
+    modId="curios"
+    mandatory=true
+    versionRange="[1.19.3-5.1.1.2,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.scalar_utils_agriculture_addon]]
+    modId="scalar_utils"
+    mandatory=true
+    versionRange="[1.19.3-5.1.0,)"
+    ordering="NONE"
+    side="BOTH"

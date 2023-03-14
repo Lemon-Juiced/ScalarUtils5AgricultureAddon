@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#S#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_block"
+    },
+    "S": {
+      "tag": "scalar_utils_agriculture_addon:seeds/tier2"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_agriculture_addon:diamond_seeds",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "scalar_utils_agriculture_addon:glowstone_seeds",
+    "scalar_utils_agriculture_addon:gold_seeds",
+    "scalar_utils_agriculture_addon:iron_seeds",
+    "scalar_utils_agriculture_addon:lapis_lazuli_seeds",
+    "scalar_utils_agriculture_addon:nether_quartz_seeds"
+  ]
+}

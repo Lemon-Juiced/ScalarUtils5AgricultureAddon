@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "scalar_utils_agriculture_addon:block/redstone_stage3"
+  },
+  "render_type": "cutout"
+}

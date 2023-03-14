@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:nuggets/copper",
+    "#forge:nuggets/netherite",
+    "scalar_utils_agriculture_addon:glowstone_seeds",
+    "scalar_utils_agriculture_addon:gold_seeds",
+    "scalar_utils_agriculture_addon:iron_seeds",
+    "scalar_utils_agriculture_addon:lapis_lazuli_seeds",
+    "scalar_utils_agriculture_addon:nether_quartz_seeds",
+    "scalar_utils_agriculture_addon:diamond_seeds",
+    "scalar_utils_agriculture_addon:emerald_seeds",
+    "scalar_utils_agriculture_addon:obsidian_seeds",
+    "scalar_utils_agriculture_addon:redstone_seeds",
+    "scalar_utils_agriculture_addon:netherite_seeds"
+  ]
+}

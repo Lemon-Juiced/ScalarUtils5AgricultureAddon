@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#S#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "tag": "scalar_utils_agriculture_addon:seeds/tier2"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_agriculture_addon:obsidian_seeds",
+    "count": 1
+  }
+}

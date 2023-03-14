@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#S#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glowstone"
+    },
+    "S": {
+      "tag": "scalar_utils_agriculture_addon:seeds/tier1"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_agriculture_addon:glowstone_seeds",
+    "count": 1
+  }
+}
