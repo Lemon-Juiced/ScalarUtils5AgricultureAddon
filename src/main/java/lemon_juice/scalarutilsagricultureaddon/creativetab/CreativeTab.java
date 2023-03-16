@@ -17,7 +17,7 @@ public class CreativeTab {
         event.registerCreativeModeTab(SCALAR_UTILS_AGRICULTURE_ADDON_TAB, builder -> builder
                 .title(Component.translatable("itemGroup.scalar_utils_agriculture_addon"))
                 .icon(() -> new ItemStack(ModItems.NETHERITE_SEEDS.get()))
-                .displayItems((features, output, hasPermissions) -> {
+                .displayItems((features, output) -> {
                     output.accept(new ItemStack(ModItems.COPPER_SEEDS.get()));
                     output.accept(new ItemStack(ModItems.GOLD_SEEDS.get()));
                     output.accept(new ItemStack(ModItems.IRON_SEEDS.get()));
@@ -37,7 +37,7 @@ public class CreativeTab {
         event.registerCreativeModeTab(SCALAR_UTILS_MICRO_RESOURCES_TAB, builder -> builder
                 .title(Component.translatable("itemGroup.scalar_utils_micro_resources"))
                 .icon(() -> new ItemStack(ModItems.NETHERITE_NUGGET.get()))
-                .displayItems((features, output, hasPermissions) -> {
+                .displayItems((features, output) -> {
                     output.accept(new ItemStack(ModItems.COPPER_NUGGET.get()));
                     output.accept(new ItemStack(ModItems.NETHERITE_NUGGET.get()));
                     output.accept(new ItemStack(ModItems.AMETHYST_FRAGMENT.get()));
