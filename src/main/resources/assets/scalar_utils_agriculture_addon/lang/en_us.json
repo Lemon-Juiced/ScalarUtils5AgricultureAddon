@@ -6,6 +6,7 @@
   "item.scalar_utils_agriculture_addon.emerald_fragment": "Emerald Fragment",
   "item.scalar_utils_agriculture_addon.lapis_lazuli_fragment": "Lapis Lazuli Fragment",
   "item.scalar_utils_agriculture_addon.nether_quartz_fragment": "Nether Quartz Fragment",
+  "item.scalar_utils_agriculture_addon.silicon_fragment": "Silicon Fragment",
   "item.scalar_utils_agriculture_addon.obsidian_shard": "Obsidian Shard Fragment",
   "item.scalar_utils_agriculture_addon.tiny_pile_of_glowstone_dust": "Tiny Pile of Glowstone Dust",
   "item.scalar_utils_agriculture_addon.tiny_pile_of_redstone_dust": "Tiny Pile of Redstone Dust",
@@ -23,6 +24,7 @@
   "item.scalar_utils_agriculture_addon.netherite_seeds": "Netherite Seeds",
   "item.scalar_utils_agriculture_addon.obsidian_seeds": "Obsidian Seeds",
   "item.scalar_utils_agriculture_addon.redstone_seeds": "Redstone Seeds",
+  "item.scalar_utils_agriculture_addon.silicon_seeds": "Silicon Seeds",
 
   "block.scalar_utils_agriculture_addon.amethyst_crop": "Amethyst Crop",
   "block.scalar_utils_agriculture_addon.coal_crop": "Coal Crop",
@@ -37,6 +39,7 @@
   "block.scalar_utils_agriculture_addon.netherite_crop": "Netherite Crop",
   "block.scalar_utils_agriculture_addon.obsidian_crop": "Obsidian Crop",
   "block.scalar_utils_agriculture_addon.redstone_crop": "Redstone Crop",
+  "block.scalar_utils_agriculture_addon.silicon_crop": "Silicon Crop",
 
   "base_seed.tooltip": "If You Are Seeing This, Something Went Terribly Wrong!",
   "t1_seed.tooltip": "Tier 1",

@@ -4,7 +4,7 @@ license="All rights reserved"
 
 [[mods]]
 modId="scalar_utils_agriculture_addon"
-version="1.19.4-5.0.0"
+version="1.19.4-5.0.1"
 displayName="Scalar Utils 5: Agriculture Addon"
 logoFile="scalarutils5agriculture_addon.png"
 credits="Scalar Team"
@@ -35,5 +35,11 @@ Fun Overpowered Agriculture That Doesn't Need To Exist In The Main Mod
     modId="scalar_utils"
     mandatory=true
     versionRange="[1.19.4-5.1.1,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.scalar_utils_agriculture_addon]]
+modId="better_silicon"
+    mandatory=true
+    versionRange="[1.19.4-1.0.1,)"
     ordering="NONE"
     side="BOTH"

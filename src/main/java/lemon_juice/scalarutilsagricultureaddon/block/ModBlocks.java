@@ -31,6 +31,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> NETHERITE_CROP = registerBlockWithoutBlockItem("netherite_crop", () -> new NetheriteCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> OBSIDIAN_CROP = registerBlockWithoutBlockItem("obsidian_crop", () -> new ObsidianCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> REDSTONE_CROP = registerBlockWithoutBlockItem("redstone_crop", () -> new RedstoneCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+    public static final RegistryObject<Block> SILICON_CROP = registerBlockWithoutBlockItem("silicon_crop", () -> new SiliconCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
 
     /******************************** Registry ********************************/
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
