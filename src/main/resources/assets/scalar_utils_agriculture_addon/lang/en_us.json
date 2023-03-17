@@ -20,6 +20,7 @@
   "item.scalar_utils_agriculture_addon.gold_seeds": "Gold Seeds",
   "item.scalar_utils_agriculture_addon.iron_seeds": "Iron Seeds",
   "item.scalar_utils_agriculture_addon.lapis_lazuli_seeds": "Lapis Lazuli Seeds",
+  "item.scalar_utils_agriculture_addon.necronite_seeds": "Necronite Seeds",
   "item.scalar_utils_agriculture_addon.nether_quartz_seeds": "Nether Quartz Seeds",
   "item.scalar_utils_agriculture_addon.netherite_seeds": "Netherite Seeds",
   "item.scalar_utils_agriculture_addon.obsidian_seeds": "Obsidian Seeds",
@@ -35,6 +36,7 @@
   "block.scalar_utils_agriculture_addon.gold_crop": "Gold Crop",
   "block.scalar_utils_agriculture_addon.iron_crop": "Iron Crop",
   "block.scalar_utils_agriculture_addon.lapis_lazuli_crop": "Lapis Lazuli Crop",
+  "block.scalar_utils_agriculture_addon.necronite_crop": "Necronite Crop",
   "block.scalar_utils_agriculture_addon.nether_quartz_crop": "Nether Quartz Crop",
   "block.scalar_utils_agriculture_addon.netherite_crop": "Netherite Crop",
   "block.scalar_utils_agriculture_addon.obsidian_crop": "Obsidian Crop",
@@ -46,6 +48,7 @@
   "t2_seed.tooltip": "Tier 2",
   "t3_seed.tooltip": "Tier 3",
   "t4_seed.tooltip": "Tier 4",
+  "t5_seed.tooltip": "Tier 5",
 
   "itemGroup.scalar_utils_agriculture_addon": "Scalar Utils 5: Agriculture Addon",
   "itemGroup.scalar_utils_micro_resources": "Scalar Utils 5: Micro-Resources"

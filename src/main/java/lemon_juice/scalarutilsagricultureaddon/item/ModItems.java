@@ -2,10 +2,7 @@ package lemon_juice.scalarutilsagricultureaddon.item;
 
 import lemon_juice.scalarutilsagricultureaddon.ScalarUtilsAgricultureAddon;
 import lemon_juice.scalarutilsagricultureaddon.block.ModBlocks;
-import lemon_juice.scalarutilsagricultureaddon.item.seed_items.Tier1SeedItem;
-import lemon_juice.scalarutilsagricultureaddon.item.seed_items.Tier2SeedItem;
-import lemon_juice.scalarutilsagricultureaddon.item.seed_items.Tier3SeedItem;
-import lemon_juice.scalarutilsagricultureaddon.item.seed_items.Tier4SeedItem;
+import lemon_juice.scalarutilsagricultureaddon.item.seed_items.*;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -46,6 +43,8 @@ public class ModItems {
     // Lapis Lazuli (Gem)
     public static final RegistryObject<Item> LAPIS_LAZULI_FRAGMENT = ITEMS.register("lapis_lazuli_fragment", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LAPIS_LAZULI_SEEDS = ITEMS.register("lapis_lazuli_seeds", () -> new Tier2SeedItem(ModBlocks.LAPIS_LAZULI_CROP.get(), new Item.Properties()));
+    // Necronite (Ingot)
+    public static final RegistryObject<Item> NECRONITE_SEEDS = ITEMS.register("necronite_seeds", () -> new Tier5SeedItem(ModBlocks.NECRONITE_CROP.get(), new Item.Properties()));
     // Nether Quartz (Gem)
     public static final RegistryObject<Item> NETHER_QUARTZ_FRAGMENT = ITEMS.register("nether_quartz_fragment", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHER_QUARTZ_SEEDS = ITEMS.register("nether_quartz_seeds", () -> new Tier2SeedItem(ModBlocks.NETHER_QUARTZ_CROP.get(), new Item.Properties()));

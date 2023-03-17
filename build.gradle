@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.19.4-5.0.1'
+version = '1.19.4-5.0.2'
 group = 'lemon_juice.scalar_utils_agriculture_addon' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'scalar_utils_agriculture_addon'
 
@@ -132,7 +132,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.4-45.0.6'
+    minecraft 'net.minecraftforge:forge:1.19.4-45.0.9'
 
     // JEI
     //compileOnly fg.deobf("mezz.jei:jei-1.19.3-common-api:12.2.0.16")
@@ -148,7 +148,7 @@ dependencies {
     compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.19.4-5.1.4.2:api")
 
     // Scalar Utils 5 Base Mod Dependency
-    runtimeOnly fg.deobf("curse.maven:scalar-utils-5-735569:4441102")
+    runtimeOnly fg.deobf("curse.maven:scalar-utils-5-735569:4441828")
 
     // Better Silicon Optional Dependency
     runtimeOnly fg.deobf("curse.maven:better-silicon-782533:4440162")

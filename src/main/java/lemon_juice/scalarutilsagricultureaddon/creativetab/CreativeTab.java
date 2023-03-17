@@ -36,6 +36,8 @@ public class CreativeTab {
                     output.accept(new ItemStack(ModItems.REDSTONE_SEEDS.get()));
                     // Tier 4
                     output.accept(new ItemStack(ModItems.NETHERITE_SEEDS.get()));
+                    // Tier 5
+                    output.accept(new ItemStack(ModItems.NECRONITE_SEEDS.get()));
                 }));
 
         // Micro-Resources Tab
