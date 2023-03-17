@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.19.4-5.0.2'
+version = '1.19.4-5.0.3'
 group = 'lemon_juice.scalar_utils_agriculture_addon' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'scalar_utils_agriculture_addon'
 
@@ -151,7 +151,7 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:scalar-utils-5-735569:4441828")
 
     // Better Silicon Optional Dependency
-    runtimeOnly fg.deobf("curse.maven:better-silicon-782533:4440162")
+    runtimeOnly fg.deobf("curse.maven:better-silicon-782533:4443091")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

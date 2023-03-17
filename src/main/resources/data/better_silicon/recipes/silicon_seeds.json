@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " # ",
+    "###",
     "#S#",
-    " # "
+    "###"
   ],
   "key": {
     "#": {
-      "tag": "forge:silicon"
+      "tag": "forge:storage_blocks/silicon"
     },
     "S": {
       "tag": "scalar_utils_agriculture_addon:seeds/tier1"
