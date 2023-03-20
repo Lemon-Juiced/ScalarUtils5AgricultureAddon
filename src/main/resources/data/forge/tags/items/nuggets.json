@@ -1,8 +1,7 @@
 {
   "replace": false,
   "values": [
-    "scalar_utils_agriculture_addon:amethyst_seeds",
-    "scalar_utils_agriculture_addon:coal_seeds",
-    "scalar_utils_agriculture_addon:copper_seeds"
+    "#forge:nuggets/copper",
+    "#forge:nuggets/netherite"
   ]
 }
