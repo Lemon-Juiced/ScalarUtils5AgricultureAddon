@@ -23,7 +23,7 @@
                   }
                 }
               ],
-              "name": "scalar_utils_agriculture_addon:tiny_pile_of_redstone_dust"
+              "name": "scalar_utils_agriculture_addon:grain_of_redstone_dust"
             },
             {
               "type": "minecraft:item",

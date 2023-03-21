@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "scalar_utils_agriculture_addon:item/tiny_pile_of_glowstone_dust"
-  }
-}

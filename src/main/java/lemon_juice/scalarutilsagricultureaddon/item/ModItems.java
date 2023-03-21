@@ -2,6 +2,7 @@ package lemon_juice.scalarutilsagricultureaddon.item;
 
 import lemon_juice.scalarutilsagricultureaddon.ScalarUtilsAgricultureAddon;
 import lemon_juice.scalarutilsagricultureaddon.block.ModBlocks;
+import lemon_juice.scalarutilsagricultureaddon.item.custom.FireproofItem;
 import lemon_juice.scalarutilsagricultureaddon.item.seed_items.*;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,10 +14,10 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ScalarUtilsAgricultureAddon.MOD_ID);
 
     /* Mapping
-     * Dusts -> Tiny Piles of Dust
-     * Full Blocks -> Shards
-     * Gems -> Fragments
-     * Ingots -> Nuggets
+     * Dusts -> Grain
+     * Full Blocks -> Shard
+     * Gems -> Fragment
+     * Ingots -> Nugget
      */
 
     // Amethyst (Gem)
@@ -34,7 +35,7 @@ public class ModItems {
     public static final RegistryObject<Item> EMERALD_FRAGMENT = ITEMS.register("emerald_fragment", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> EMERALD_SEEDS = ITEMS.register("emerald_seeds", () -> new Tier3SeedItem(ModBlocks.EMERALD_CROP.get(), new Item.Properties()));
     // Glowstone (Dust)
-    public static final RegistryObject<Item> TINY_PILE_OF_GLOWSTONE_DUST = ITEMS.register("tiny_pile_of_glowstone_dust", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRAIN_OF_GLOWSTONE_DUST = ITEMS.register("grain_of_glowstone_dust", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GLOWSTONE_SEEDS = ITEMS.register("glowstone_seeds", () -> new Tier2SeedItem(ModBlocks.GLOWSTONE_CROP.get(), new Item.Properties()));
     // Gold (Ingot)
     public static final RegistryObject<Item> GOLD_SEEDS = ITEMS.register("gold_seeds", () -> new Tier2SeedItem(ModBlocks.GOLD_CROP.get(), new Item.Properties()));
@@ -44,18 +45,18 @@ public class ModItems {
     public static final RegistryObject<Item> LAPIS_LAZULI_FRAGMENT = ITEMS.register("lapis_lazuli_fragment", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LAPIS_LAZULI_SEEDS = ITEMS.register("lapis_lazuli_seeds", () -> new Tier2SeedItem(ModBlocks.LAPIS_LAZULI_CROP.get(), new Item.Properties()));
     // Necronite (Ingot)
-    public static final RegistryObject<Item> NECRONITE_SEEDS = ITEMS.register("necronite_seeds", () -> new Tier5SeedItem(ModBlocks.NECRONITE_CROP.get(), new Item.Properties()));
+    public static final RegistryObject<Item> NECRONITE_SEEDS = ITEMS.register("necronite_seeds", () -> new NecroniteSeedItem(ModBlocks.NECRONITE_CROP.get(), new Item.Properties()));
     // Nether Quartz (Gem)
     public static final RegistryObject<Item> NETHER_QUARTZ_FRAGMENT = ITEMS.register("nether_quartz_fragment", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHER_QUARTZ_SEEDS = ITEMS.register("nether_quartz_seeds", () -> new Tier2SeedItem(ModBlocks.NETHER_QUARTZ_CROP.get(), new Item.Properties()));
     // Netherite (Ingot)
-    public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> NETHERITE_SEEDS = ITEMS.register("netherite_seeds", () -> new Tier4SeedItem(ModBlocks.NETHERITE_CROP.get(), new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget", () -> new FireproofItem(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_SEEDS = ITEMS.register("netherite_seeds", () -> new NetheriteSeedItem(ModBlocks.NETHERITE_CROP.get(), new Item.Properties()));
     // Obsidian (Full Block)
     public static final RegistryObject<Item> OBSIDIAN_SHARD = ITEMS.register("obsidian_shard", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> OBSIDIAN_SEEDS = ITEMS.register("obsidian_seeds", () -> new Tier3SeedItem(ModBlocks.OBSIDIAN_CROP.get(), new Item.Properties()));
     // Redstone  (Dust)
-    public static final RegistryObject<Item> TINY_PILE_OF_REDSTONE_DUST = ITEMS.register("tiny_pile_of_redstone_dust", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GRAIN_OF_REDSTONE_DUST = ITEMS.register("grain_of_redstone_dust", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REDSTONE_SEEDS = ITEMS.register("redstone_seeds", () -> new Tier3SeedItem(ModBlocks.REDSTONE_CROP.get(), new Item.Properties()));
     // Silicon (Gem)
     public static final RegistryObject<Item> SILICON_FRAGMENT = ITEMS.register("silicon_fragment", () -> new Item(new Item.Properties()));

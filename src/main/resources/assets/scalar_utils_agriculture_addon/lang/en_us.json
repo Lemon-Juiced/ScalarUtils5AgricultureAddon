@@ -8,8 +8,8 @@
   "item.scalar_utils_agriculture_addon.nether_quartz_fragment": "Nether Quartz Fragment",
   "item.scalar_utils_agriculture_addon.silicon_fragment": "Silicon Fragment",
   "item.scalar_utils_agriculture_addon.obsidian_shard": "Obsidian Shard Fragment",
-  "item.scalar_utils_agriculture_addon.tiny_pile_of_glowstone_dust": "Tiny Pile of Glowstone Dust",
-  "item.scalar_utils_agriculture_addon.tiny_pile_of_redstone_dust": "Tiny Pile of Redstone Dust",
+  "item.scalar_utils_agriculture_addon.grain_of_glowstone_dust": "Grain of Glowstone Dust",
+  "item.scalar_utils_agriculture_addon.grain_of_redstone_dust": "Grain of Redstone Dust",
 
   "item.scalar_utils_agriculture_addon.amethyst_seeds": "Amethyst Seeds",
   "item.scalar_utils_agriculture_addon.coal_seeds": "Coal Seeds",
