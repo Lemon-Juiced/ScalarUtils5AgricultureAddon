@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_agriculture_addon:copper_nugget"
+    }
+  ],
+  "result": {
+    "item": "lemon_core:copper_nugget",
+    "count": 1
+  }
+}

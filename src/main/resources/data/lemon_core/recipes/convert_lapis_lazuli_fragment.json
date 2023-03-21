@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_agriculture_addon:lapis_lazuli_fragment"
+    }
+  ],
+  "result": {
+    "item": "lemon_core:lapis_lazuli_fragment",
+    "count": 1
+  }
+}

@@ -10,14 +10,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class FireproofItem extends Item {
-    public FireproofItem(Properties properties) {
+public class RemovingItem extends Item {
+    public RemovingItem(Properties properties) {
         super(properties);
-    }
-
-    @Override
-    public boolean isFireResistant() {
-        return true;
     }
 
     public void appendHoverText(ItemStack itemStack, @Nullable Level level, List<Component> components, TooltipFlag flag) {

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_agriculture_addon:emerald_fragment"
+    }
+  ],
+  "result": {
+    "item": "lemon_core:emerald_fragment",
+    "count": 1
+  }
+}

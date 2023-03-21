@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_agriculture_addon:grain_of_glowstone_dust"
+    }
+  ],
+  "result": {
+    "item": "lemon_core:grain_of_glowstone_dust",
+    "count": 1
+  }
+}

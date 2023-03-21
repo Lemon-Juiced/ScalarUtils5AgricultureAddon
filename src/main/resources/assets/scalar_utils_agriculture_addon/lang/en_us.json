@@ -50,6 +50,8 @@
   "t4_seed.tooltip": "Tier 4",
   "t5_seed.tooltip": "Tier 5",
 
+  "removing.tooltip": "This Item Is Being Removed, Throw It Into Your Crafting Table To Get The Item That Won't Be Deleted",
+
   "itemGroup.scalar_utils_agriculture_addon": "Scalar Utils 5: Agriculture Addon",
   "itemGroup.scalar_utils_micro_resources": "Scalar Utils 5: Micro-Resources"
 }
