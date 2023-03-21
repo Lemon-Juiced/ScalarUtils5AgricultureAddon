@@ -23,7 +23,7 @@
                   }
                 }
               ],
-              "name": "scalar_utils_agriculture_addon:copper_nugget"
+              "name": "lemon_core:copper_nugget"
             },
             {
               "type": "minecraft:item",

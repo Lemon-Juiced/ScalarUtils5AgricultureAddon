@@ -23,7 +23,7 @@
                   }
                 }
               ],
-              "name": "scalar_utils_agriculture_addon:grain_of_redstone_dust"
+              "name": "lemon_core:grain_of_redstone_dust"
             },
             {
               "type": "minecraft:item",

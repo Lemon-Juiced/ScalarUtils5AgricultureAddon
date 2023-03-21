@@ -23,7 +23,7 @@
                   }
                 }
               ],
-              "name": "scalar_utils_agriculture_addon:lapis_lazuli_fragment"
+              "name": "lemon_core:lapis_lazuli_fragment"
             },
             {
               "type": "minecraft:item",

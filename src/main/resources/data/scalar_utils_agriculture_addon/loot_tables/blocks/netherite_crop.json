@@ -23,7 +23,7 @@
                   }
                 }
               ],
-              "name": "scalar_utils_agriculture_addon:netherite_nugget"
+              "name": "lemon_core:netherite_nugget"
             },
             {
               "type": "minecraft:item",

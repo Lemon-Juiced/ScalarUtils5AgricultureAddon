@@ -23,7 +23,7 @@
                   }
                 }
               ],
-              "name": "scalar_utils_agriculture_addon:diamond_fragment"
+              "name": "lemon_core:diamond_fragment"
             },
             {
               "type": "minecraft:item",

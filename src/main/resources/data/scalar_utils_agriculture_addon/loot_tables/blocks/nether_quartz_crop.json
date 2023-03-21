@@ -23,7 +23,7 @@
                   }
                 }
               ],
-              "name": "scalar_utils_agriculture_addon:nether_quartz_fragment"
+              "name": "lemon_core:nether_quartz_fragment"
             },
             {
               "type": "minecraft:item",
