@@ -4,7 +4,7 @@ license="All rights reserved"
 
 [[mods]]
 modId="scalar_utils_agriculture_addon"
-version="1.19.4-5.1.0pre1"
+version="1.19.4-5.1.0"
 displayName="Scalar Utils 5: Agriculture Addon"
 logoFile="scalarutils5agriculture_addon.png"
 credits="Scalar Team"
