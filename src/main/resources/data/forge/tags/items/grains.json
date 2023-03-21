@@ -1,7 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#forge:grains/glowstone",
-    "#forge:grains/redstone"
-  ]
-}
