@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "scalar_utils_agriculture_addon:cobalt_seeds",
     "scalar_utils_agriculture_addon:diamond_seeds",
     "scalar_utils_agriculture_addon:emerald_seeds",
     "scalar_utils_agriculture_addon:obsidian_seeds",

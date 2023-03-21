@@ -1,10 +1,23 @@
 {
   "replace": false,
   "values": [
+    "scalar_utils_agriculture_addon:constantan_seeds",
+    "scalar_utils_agriculture_addon:electrum_seeds",
     "scalar_utils_agriculture_addon:glowstone_seeds",
     "scalar_utils_agriculture_addon:gold_seeds",
+    "scalar_utils_agriculture_addon:invar_seeds",
     "scalar_utils_agriculture_addon:iron_seeds",
     "scalar_utils_agriculture_addon:lapis_lazuli_seeds",
-    "scalar_utils_agriculture_addon:nether_quartz_seeds"
+    "scalar_utils_agriculture_addon:lead_seeds",
+    "scalar_utils_agriculture_addon:nether_quartz_seeds",
+    "scalar_utils_agriculture_addon:nickel_seeds",
+    "scalar_utils_agriculture_addon:osmium_seeds",
+    "scalar_utils_agriculture_addon:peridot_seeds",
+    "scalar_utils_agriculture_addon:ruby_seeds",
+    "scalar_utils_agriculture_addon:sapphire_seeds",
+    "scalar_utils_agriculture_addon:silver_seeds",
+    "scalar_utils_agriculture_addon:steel_seeds",
+    "scalar_utils_agriculture_addon:uranium_seeds",
+    "scalar_utils_agriculture_addon:zinc_seeds"
   ]
 }

@@ -1,8 +1,12 @@
 {
   "replace": false,
   "values": [
+    "scalar_utils_agriculture_addon:aluminum_seeds",
     "scalar_utils_agriculture_addon:amethyst_seeds",
+    "scalar_utils_agriculture_addon:brass_seeds",
+    "scalar_utils_agriculture_addon:bronze_seeds",
     "scalar_utils_agriculture_addon:coal_seeds",
-    "scalar_utils_agriculture_addon:copper_seeds"
+    "scalar_utils_agriculture_addon:copper_seeds",
+    "scalar_utils_agriculture_addon:tin_seeds"
   ]
 }
