@@ -23,7 +23,7 @@
                   }
                 }
               ],
-              "name": "scalar_utils:tiny_coal"
+              "name": "lemon_core:tiny_coal"
             },
             {
               "type": "minecraft:item",
