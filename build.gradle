@@ -135,10 +135,10 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.19.4-45.0.40'
 
     // JEI
-    //compileOnly fg.deobf("mezz.jei:jei-1.19.3-common-api:12.2.0.16")
-    //compileOnly fg.deobf("mezz.jei:jei-1.19.3-forge-api:12.2.0.16")
-    //runtimeOnly fg.deobf("mezz.jei:jei-1.19.3-common:12.2.0.16")
-    //runtimeOnly fg.deobf("mezz.jei:jei-1.19.3-forge:12.2.0.16")
+    compileOnly fg.deobf("mezz.jei:jei-1.19.4-common-api:13.1.0.6")
+    compileOnly fg.deobf("mezz.jei:jei-1.19.4-forge-api:13.1.0.6")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-common:13.1.0.6")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-forge:13.1.0.6")
 
     // Jade
     runtimeOnly fg.deobf("curse.maven:jade-324717:4439089")
@@ -151,7 +151,7 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4469499")
 
     // Scalar Utils 5 Base Mod Dependency
-    runtimeOnly fg.deobf("curse.maven:scalar-utils-5-735569:4469539")
+    runtimeOnly fg.deobf("curse.maven:scalar-utils-5-735569:4489660")
 
     // Better Silicon Optional Dependency
     runtimeOnly fg.deobf("curse.maven:better-silicon-782533:4448764")
