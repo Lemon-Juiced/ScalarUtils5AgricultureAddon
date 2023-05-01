@@ -35,6 +35,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> IRON_CROP = registerBlockWithoutBlockItem("iron_crop", () -> new IronCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> LAPIS_LAZULI_CROP = registerBlockWithoutBlockItem("lapis_lazuli_crop", () -> new LapisLazuliCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> LEAD_CROP = registerBlockWithoutBlockItem("lead_crop", () -> new LeadCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+    public static final RegistryObject<Block> MANGANESE_CROP = registerBlockWithoutBlockItem("manganese_crop", () -> new ManganeseCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> NECRONITE_CROP = registerBlockWithoutBlockItem("necronite_crop", () -> new NecroniteCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> NETHER_QUARTZ_CROP = registerBlockWithoutBlockItem("nether_quartz_crop", () -> new NetherQuartzCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> NETHERITE_CROP = registerBlockWithoutBlockItem("netherite_crop", () -> new NetheriteCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));

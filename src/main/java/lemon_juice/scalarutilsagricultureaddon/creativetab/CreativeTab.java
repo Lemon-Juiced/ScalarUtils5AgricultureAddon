@@ -34,6 +34,7 @@ public class CreativeTab {
                     output.accept(new ItemStack(ModItems.IRON_SEEDS.get()));
                     output.accept(new ItemStack(ModItems.LAPIS_LAZULI_SEEDS.get()));
                     output.accept(new ItemStack(ModItems.LEAD_SEEDS.get()));
+                    output.accept(new ItemStack(ModItems.MANGANESE_SEEDS.get()));
                     output.accept(new ItemStack(ModItems.NETHER_QUARTZ_SEEDS.get()));
                     output.accept(new ItemStack(ModItems.NICKEL_SEEDS.get()));
                     output.accept(new ItemStack(ModItems.OSMIUM_SEEDS.get()));

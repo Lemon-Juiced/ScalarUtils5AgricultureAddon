@@ -29,6 +29,7 @@ public class ModItems {
     public static final RegistryObject<Item> IRON_SEEDS = ITEMS.register("iron_seeds", () -> new Tier2SeedItem(ModBlocks.IRON_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> LAPIS_LAZULI_SEEDS = ITEMS.register("lapis_lazuli_seeds", () -> new Tier2SeedItem(ModBlocks.LAPIS_LAZULI_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> LEAD_SEEDS = ITEMS.register("lead_seeds", () -> new Tier2SeedItem(ModBlocks.LEAD_CROP.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MANGANESE_SEEDS = ITEMS.register("manganese_seeds", () -> new Tier2SeedItem(ModBlocks.MANGANESE_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> NECRONITE_SEEDS = ITEMS.register("necronite_seeds", () -> new NecroniteSeedItem(ModBlocks.NECRONITE_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> NETHER_QUARTZ_SEEDS = ITEMS.register("nether_quartz_seeds", () -> new Tier2SeedItem(ModBlocks.NETHER_QUARTZ_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_SEEDS = ITEMS.register("netherite_seeds", () -> new NetheriteSeedItem(ModBlocks.NETHERITE_CROP.get(), new Item.Properties()));
