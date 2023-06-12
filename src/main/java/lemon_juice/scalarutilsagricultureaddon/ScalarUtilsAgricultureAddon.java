@@ -1,7 +1,7 @@
 package lemon_juice.scalarutilsagricultureaddon;
 
 import lemon_juice.scalarutilsagricultureaddon.block.ModBlocks;
-import lemon_juice.scalarutilsagricultureaddon.creativetab.CreativeTab;
+import lemon_juice.scalarutilsagricultureaddon.creativetab.ModCreativeTab;
 import lemon_juice.scalarutilsagricultureaddon.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,7 +25,8 @@ public class ScalarUtilsAgricultureAddon {
         ModBlocks.register(modEventBus);
 
         // Register Creative Tab
-        modEventBus.addListener(CreativeTab::registerTabs);
+        ModCreativeTab.register(modEventBus);
+        modEventBus.addListener(ModCreativeTab::registerTabs);
 
         modEventBus.addListener(this::commonSetup);
 
