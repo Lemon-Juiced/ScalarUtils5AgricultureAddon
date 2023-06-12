@@ -24,6 +24,7 @@ public class ModCreativeTab {
             // Tier 1
             event.accept(ModItems.ALUMINUM_SEEDS.get());
             event.accept(ModItems.AMETHYST_SEEDS.get());
+            event.accept(ModItems.APATITE_SEEDS.get());
             event.accept(ModItems.BRASS_SEEDS.get());
             event.accept(ModItems.BRONZE_SEEDS.get());
             event.accept(ModItems.COAL_SEEDS.get());

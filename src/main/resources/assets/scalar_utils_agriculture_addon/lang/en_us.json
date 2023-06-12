@@ -1,6 +1,7 @@
 {
   "item.scalar_utils_agriculture_addon.aluminum_seeds": "Aluminum Seeds",
   "item.scalar_utils_agriculture_addon.amethyst_seeds": "Amethyst Seeds",
+  "item.scalar_utils_agriculture_addon.apatite_seeds": "Apatite Seeds",
   "item.scalar_utils_agriculture_addon.brass_seeds": "Brass Seeds",
   "item.scalar_utils_agriculture_addon.bronze_seeds": "Bronze Seeds",
   "item.scalar_utils_agriculture_addon.coal_seeds": "Coal Seeds",
@@ -36,6 +37,7 @@
 
   "block.scalar_utils_agriculture_addon.aluminum_crop": "Aluminum Crop",
   "block.scalar_utils_agriculture_addon.amethyst_crop": "Amethyst Crop",
+  "block.scalar_utils_agriculture_addon.apatite_crop": "Apatite Crop",
   "block.scalar_utils_agriculture_addon.brass_crop": "Brass Crop",
   "block.scalar_utils_agriculture_addon.bronze_crop": "Bronze Crop",
   "block.scalar_utils_agriculture_addon.coal_crop": "Coal Crop",

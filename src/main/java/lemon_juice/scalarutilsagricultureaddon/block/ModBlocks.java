@@ -20,6 +20,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ALUMINUM_CROP = registerBlockWithoutBlockItem("aluminum_crop", () -> new AluminumCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> AMETHYST_CROP = registerBlockWithoutBlockItem("amethyst_crop", () -> new AmethystCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+    public static final RegistryObject<Block> APATITE_CROP = registerBlockWithoutBlockItem("apatite_crop", () -> new ApatiteCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> BRASS_CROP = registerBlockWithoutBlockItem("brass_crop", () -> new BrassCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> BRONZE_CROP = registerBlockWithoutBlockItem("bronze_crop", () -> new BronzeCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> COAL_CROP = registerBlockWithoutBlockItem("coal_crop", () -> new CoalCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));

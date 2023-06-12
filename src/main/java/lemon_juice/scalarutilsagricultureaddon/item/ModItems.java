@@ -14,6 +14,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> ALUMINUM_SEEDS = ITEMS.register("aluminum_seeds", () -> new Tier1SeedItem(ModBlocks.ALUMINUM_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_SEEDS = ITEMS.register("amethyst_seeds", () -> new Tier1SeedItem(ModBlocks.AMETHYST_CROP.get(), new Item.Properties()));
+    public static final RegistryObject<Item> APATITE_SEEDS = ITEMS.register("apatite_seeds", () -> new Tier1SeedItem(ModBlocks.APATITE_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> BRASS_SEEDS = ITEMS.register("brass_seeds", () -> new Tier1SeedItem(ModBlocks.BRASS_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_SEEDS = ITEMS.register("bronze_seeds", () -> new Tier1SeedItem(ModBlocks.BRONZE_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> COAL_SEEDS = ITEMS.register("coal_seeds", () -> new Tier1SeedItem(ModBlocks.COAL_CROP.get(), new Item.Properties()));
