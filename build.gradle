@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.20.1-5.2.1'
+version = '1.20.1-5.2.2'
 group = 'lemon_juice.scalar_utils_agriculture_addon' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'scalar_utils_agriculture_addon'
 
@@ -148,7 +148,7 @@ dependencies {
     compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.2.0-beta.3+1.20.1:api")
 
     // Lemon Core Dependency
-    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4585702")
+    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4609536")
 
     // Scalar Utils 5 Base Mod Dependency
     runtimeOnly fg.deobf("curse.maven:scalar-utils-5-735569:4585745")

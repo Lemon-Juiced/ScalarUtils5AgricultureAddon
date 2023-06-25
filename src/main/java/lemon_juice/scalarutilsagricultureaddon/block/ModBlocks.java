@@ -45,6 +45,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> OSMIUM_CROP = registerBlockWithoutBlockItem("osmium_crop", () -> new OsmiumCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> PERIDOT_CROP = registerBlockWithoutBlockItem("peridot_crop", () -> new PeridotCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> REDSTONE_CROP = registerBlockWithoutBlockItem("redstone_crop", () -> new RedstoneCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+    public static final RegistryObject<Block> ROSE_QUARTZ_CROP = registerBlockWithoutBlockItem("rose_quartz_crop", () -> new RoseQuartzCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> RUBY_CROP = registerBlockWithoutBlockItem("ruby_crop", () -> new RubyCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> SAPPHIRE_CROP = registerBlockWithoutBlockItem("sapphire_crop", () -> new SapphireCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> SILICON_CROP = registerBlockWithoutBlockItem("silicon_crop", () -> new SiliconCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));

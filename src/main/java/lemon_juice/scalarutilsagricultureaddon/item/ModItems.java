@@ -39,6 +39,7 @@ public class ModItems {
     public static final RegistryObject<Item> OSMIUM_SEEDS = ITEMS.register("osmium_seeds", () -> new Tier2SeedItem(ModBlocks.OSMIUM_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> PERIDOT_SEEDS = ITEMS.register("peridot_seeds", () -> new Tier2SeedItem(ModBlocks.PERIDOT_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> REDSTONE_SEEDS = ITEMS.register("redstone_seeds", () -> new Tier3SeedItem(ModBlocks.REDSTONE_CROP.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ROSE_QUARTZ_SEEDS = ITEMS.register("rose_quartz_seeds", () -> new Tier2SeedItem(ModBlocks.ROSE_QUARTZ_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> RUBY_SEEDS = ITEMS.register("ruby_seeds", () -> new Tier2SeedItem(ModBlocks.RUBY_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_SEEDS = ITEMS.register("sapphire_seeds", () -> new Tier2SeedItem(ModBlocks.SAPPHIRE_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> SILICON_SEEDS = ITEMS.register("silicon_seeds", () -> new Tier2SeedItem(ModBlocks.SILICON_CROP.get(), new Item.Properties()));

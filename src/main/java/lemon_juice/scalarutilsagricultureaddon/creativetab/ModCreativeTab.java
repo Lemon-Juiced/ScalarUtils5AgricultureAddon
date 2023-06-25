@@ -44,6 +44,7 @@ public class ModCreativeTab {
             event.accept(ModItems.NICKEL_SEEDS.get());
             event.accept(ModItems.OSMIUM_SEEDS.get());
             event.accept(ModItems.PERIDOT_SEEDS.get());
+            event.accept(ModItems.ROSE_QUARTZ_SEEDS.get());
             event.accept(ModItems.RUBY_SEEDS.get());
             event.accept(ModItems.SAPPHIRE_SEEDS.get());
             event.accept(ModItems.SILICON_SEEDS.get());
