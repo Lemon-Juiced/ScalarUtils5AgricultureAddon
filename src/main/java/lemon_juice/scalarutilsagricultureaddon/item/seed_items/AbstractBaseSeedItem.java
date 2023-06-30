@@ -14,10 +14,16 @@ import java.util.List;
 
 public class AbstractBaseSeedItem extends ItemNameBlockItem {
     public final int tier;
+    public final boolean isFireproof;
 
     public AbstractBaseSeedItem(Block block, Properties properties, int tier) {
+        this(block, properties, tier, false);
+    }
+
+    public AbstractBaseSeedItem(Block block, Properties properties, int tier, boolean isFireproof) {
         super(block, properties);
         this.tier = tier;
+        this.isFireproof = isFireproof;
     }
 
     @Override
@@ -40,6 +46,11 @@ public class AbstractBaseSeedItem extends ItemNameBlockItem {
             case 4, 5 -> Rarity.EPIC;
             default -> Rarity.COMMON;
         };
+    }
+
+    @Override
+    public boolean isFireResistant() {
+        return isFireproof;
     }
 
     /**

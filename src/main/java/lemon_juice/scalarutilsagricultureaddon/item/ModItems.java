@@ -31,9 +31,9 @@ public class ModItems {
     public static final RegistryObject<Item> LAPIS_LAZULI_SEEDS = ITEMS.register("lapis_lazuli_seeds", () -> new AbstractBaseSeedItem(ModBlocks.LAPIS_LAZULI_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> LEAD_SEEDS = ITEMS.register("lead_seeds", () -> new AbstractBaseSeedItem(ModBlocks.LEAD_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> MANGANESE_SEEDS = ITEMS.register("manganese_seeds", () -> new AbstractBaseSeedItem(ModBlocks.MANGANESE_CROP.get(), new Item.Properties(), 2));
-    public static final RegistryObject<Item> NECRONITE_SEEDS = ITEMS.register("necronite_seeds", () -> new FireproofSeedItem(ModBlocks.NECRONITE_CROP.get(), new Item.Properties(), 5));
+    public static final RegistryObject<Item> NECRONITE_SEEDS = ITEMS.register("necronite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.NECRONITE_CROP.get(), new Item.Properties(), 5, true));
     public static final RegistryObject<Item> NETHER_QUARTZ_SEEDS = ITEMS.register("nether_quartz_seeds", () -> new AbstractBaseSeedItem(ModBlocks.NETHER_QUARTZ_CROP.get(), new Item.Properties(), 2));
-    public static final RegistryObject<Item> NETHERITE_SEEDS = ITEMS.register("netherite_seeds", () -> new FireproofSeedItem(ModBlocks.NETHERITE_CROP.get(), new Item.Properties(), 4));
+    public static final RegistryObject<Item> NETHERITE_SEEDS = ITEMS.register("netherite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.NETHERITE_CROP.get(), new Item.Properties(), 4, true));
     public static final RegistryObject<Item> NICKEL_SEEDS = ITEMS.register("nickel_seeds", () -> new AbstractBaseSeedItem(ModBlocks.NICKEL_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> OBSIDIAN_SEEDS = ITEMS.register("obsidian_seeds", () -> new AbstractBaseSeedItem(ModBlocks.OBSIDIAN_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> OSMIUM_SEEDS = ITEMS.register("osmium_seeds", () -> new AbstractBaseSeedItem(ModBlocks.OSMIUM_CROP.get(), new Item.Properties(), 2));
