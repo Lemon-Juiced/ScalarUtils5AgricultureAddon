@@ -2,9 +2,11 @@ package lemon_juice.scalarutilsagricultureaddon.creativetab;
 
 import lemon_juice.scalarutilsagricultureaddon.ScalarUtilsAgricultureAddon;
 import lemon_juice.scalarutilsagricultureaddon.item.ModItems;
+import lemon_juice.scalarutilsagricultureaddon.item.seed_items.AbstractBaseSeedItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,47 +23,27 @@ public class ModCreativeTab {
 
     public static void registerTabs(BuildCreativeModeTabContentsEvent event) {
         if (event.getTab() == SCALAR_UTILS_AGRICULTURE_ADDON_TAB.get()) {
+
             // Tier 1
-            event.accept(ModItems.ALUMINUM_SEEDS.get());
-            event.accept(ModItems.AMETHYST_SEEDS.get());
-            event.accept(ModItems.APATITE_SEEDS.get());
-            event.accept(ModItems.BRASS_SEEDS.get());
-            event.accept(ModItems.BRONZE_SEEDS.get());
-            event.accept(ModItems.COAL_SEEDS.get());
-            event.accept(ModItems.COPPER_SEEDS.get());
-            event.accept(ModItems.TIN_SEEDS.get());
-            //Tier 2
-            event.accept(ModItems.CONSTANTAN_SEEDS.get());
-            event.accept(ModItems.ELECTRUM_SEEDS.get());
-            event.accept(ModItems.GLOWSTONE_SEEDS.get());
-            event.accept(ModItems.GOLD_SEEDS.get());
-            event.accept(ModItems.INVAR_SEEDS.get());
-            event.accept(ModItems.IRON_SEEDS.get());
-            event.accept(ModItems.LAPIS_LAZULI_SEEDS.get());
-            event.accept(ModItems.LEAD_SEEDS.get());
-            event.accept(ModItems.MANGANESE_SEEDS.get());
-            event.accept(ModItems.NETHER_QUARTZ_SEEDS.get());
-            event.accept(ModItems.NICKEL_SEEDS.get());
-            event.accept(ModItems.OSMIUM_SEEDS.get());
-            event.accept(ModItems.PERIDOT_SEEDS.get());
-            event.accept(ModItems.ROSE_QUARTZ_SEEDS.get());
-            event.accept(ModItems.RUBY_SEEDS.get());
-            event.accept(ModItems.SAPPHIRE_SEEDS.get());
-            event.accept(ModItems.SILICON_SEEDS.get());
-            event.accept(ModItems.SILVER_SEEDS.get());
-            event.accept(ModItems.STEEL_SEEDS.get());
-            event.accept(ModItems.URANIUM_SEEDS.get());
-            event.accept(ModItems.ZINC_SEEDS.get());
-            //Tier 3
-            event.accept(ModItems.COBALT_SEEDS.get());
-            event.accept(ModItems.DIAMOND_SEEDS.get());
-            event.accept(ModItems.EMERALD_SEEDS.get());
-            event.accept(ModItems.OBSIDIAN_SEEDS.get());
-            event.accept(ModItems.REDSTONE_SEEDS.get());
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof AbstractBaseSeedItem abstractBaseSeedItem && abstractBaseSeedItem.getTier() == 1) event.accept(abstractBaseSeedItem);
+
+            // Tier 2
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof AbstractBaseSeedItem abstractBaseSeedItem && abstractBaseSeedItem.getTier() == 2) event.accept(abstractBaseSeedItem);
+
+            // Tier 3
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof AbstractBaseSeedItem abstractBaseSeedItem && abstractBaseSeedItem.getTier() == 3)event.accept(abstractBaseSeedItem);
+
+
             // Tier 4
-            event.accept(ModItems.NETHERITE_SEEDS.get());
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof AbstractBaseSeedItem abstractBaseSeedItem && abstractBaseSeedItem.getTier() == 4) event.accept(abstractBaseSeedItem);
+
             // Tier 5
-            event.accept(ModItems.NECRONITE_SEEDS.get());
+            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                if(item.get() instanceof AbstractBaseSeedItem abstractBaseSeedItem && abstractBaseSeedItem.getTier() == 5) event.accept(abstractBaseSeedItem);
         }
     }
 
