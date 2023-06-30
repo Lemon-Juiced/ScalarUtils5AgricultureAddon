@@ -24,26 +24,11 @@ public class ModCreativeTab {
     public static void registerTabs(BuildCreativeModeTabContentsEvent event) {
         if (event.getTab() == SCALAR_UTILS_AGRICULTURE_ADDON_TAB.get()) {
 
-            // Tier 1
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
-                if(item.get() instanceof AbstractBaseSeedItem abstractBaseSeedItem && abstractBaseSeedItem.getTier() == 1) event.accept(abstractBaseSeedItem);
+            for (int i = 1; i <= 5; i++) {
+                for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
+                    if(item.get() instanceof AbstractBaseSeedItem abstractBaseSeedItem && abstractBaseSeedItem.getTier() == i) event.accept(abstractBaseSeedItem);
+            }
 
-            // Tier 2
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
-                if(item.get() instanceof AbstractBaseSeedItem abstractBaseSeedItem && abstractBaseSeedItem.getTier() == 2) event.accept(abstractBaseSeedItem);
-
-            // Tier 3
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
-                if(item.get() instanceof AbstractBaseSeedItem abstractBaseSeedItem && abstractBaseSeedItem.getTier() == 3)event.accept(abstractBaseSeedItem);
-
-
-            // Tier 4
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
-                if(item.get() instanceof AbstractBaseSeedItem abstractBaseSeedItem && abstractBaseSeedItem.getTier() == 4) event.accept(abstractBaseSeedItem);
-
-            // Tier 5
-            for(RegistryObject<Item> item : ModItems.ITEMS.getEntries())
-                if(item.get() instanceof AbstractBaseSeedItem abstractBaseSeedItem && abstractBaseSeedItem.getTier() == 5) event.accept(abstractBaseSeedItem);
         }
     }
 
