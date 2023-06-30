@@ -2,9 +2,9 @@ package lemon_juice.scalarutilsagricultureaddon.item.seed_items;
 
 import net.minecraft.world.level.block.Block;
 
-public class NetheriteSeedItem extends Tier4SeedItem{
-    public NetheriteSeedItem(Block block, Properties properties) {
-        super(block, properties);
+public class FireproofSeedItem extends AbstractBaseSeedItem{
+    public FireproofSeedItem(Block block, Properties properties, int tier) {
+        super(block, properties, tier);
     }
 
     @Override
