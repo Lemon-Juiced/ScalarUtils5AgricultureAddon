@@ -64,5 +64,6 @@
       ],
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "scalar_utils_agriculture_addon:blocks/rose_quartz_crop"
 }
