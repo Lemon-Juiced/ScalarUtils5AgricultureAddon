@@ -23,7 +23,7 @@
                   }
                 }
               ],
-              "name": "scalar_utils:necronite_nugget"
+              "name": "lemon_core:necronite_nugget"
             },
             {
               "type": "minecraft:item",

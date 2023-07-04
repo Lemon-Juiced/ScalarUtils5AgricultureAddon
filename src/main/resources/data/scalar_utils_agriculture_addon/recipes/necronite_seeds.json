@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "scalar_utils:necronite_block"
+      "tag": "forge:storage_blocks/necronite"
     },
     "S": {
-      "tag": "scalar_utils_agriculture_addon:seeds/tier3"
+      "tag": "scalar_utils_agriculture_addon:seeds/tier4"
     }
   },
   "result": {
