@@ -4,7 +4,7 @@ license="GNU General Purpose License v3 (GPLv3)"
 
 [[mods]]
 modId="scalar_utils_agriculture_addon"
-version="1.20.1-5.3.2"
+version="1.20.1-5.3.3"
 displayName="Scalar Utils 5: Agriculture Addon"
 logoFile="scalarutils5agriculture_addon.png"
 authors="Lemon_Juiced & Scalar Team"
@@ -33,7 +33,7 @@ Fun Overpowered Agriculture That Doesn't Need To Exist In The Main Mod
 [[dependencies.scalar_utils_agriculture_addon]]
     modId="lemon_core"
     mandatory=true
-    versionRange="[1.20.1-1.0.17,)"
+    versionRange="[1.20.1-1.0.18,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.scalar_utils_agriculture_addon]]

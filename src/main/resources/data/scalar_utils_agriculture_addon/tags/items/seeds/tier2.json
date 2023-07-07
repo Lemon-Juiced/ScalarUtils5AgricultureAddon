@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "scalar_utils_agriculture_addon:certus_quartz_seeds",
     "scalar_utils_agriculture_addon:constantan_seeds",
     "scalar_utils_agriculture_addon:electrum_seeds",
     "scalar_utils_agriculture_addon:glowstone_seeds",
@@ -19,6 +20,7 @@
     "scalar_utils_agriculture_addon:sapphire_seeds",
     "scalar_utils_agriculture_addon:silver_seeds",
     "scalar_utils_agriculture_addon:steel_seeds",
+    "scalar_utils_agriculture_addon:sulfur_seeds",
     "scalar_utils_agriculture_addon:uranium_seeds",
     "scalar_utils_agriculture_addon:zinc_seeds"
   ]

@@ -41,6 +41,7 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "apatite" -> ModItems.APATITE_SEEDS.get();
             case "brass" -> ModItems.BRASS_SEEDS.get();
             case "bronze" -> ModItems.BRONZE_SEEDS.get();
+            case "certus_quartz" -> ModItems.CERTUS_QUARTZ_SEEDS.get();
             case "coal" -> ModItems.COAL_SEEDS.get();
             case "cobalt" -> ModItems.COBALT_SEEDS.get();
             case "constantan" -> ModItems.CONSTANTAN_SEEDS.get();
@@ -69,6 +70,7 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "silicon" -> ModItems.SILICON_SEEDS.get();
             case "silver" -> ModItems.SILVER_SEEDS.get();
             case "steel" -> ModItems.STEEL_SEEDS.get();
+            case "sulfur" -> ModItems.SULFUR_SEEDS.get();
             case "tin" -> ModItems.TIN_SEEDS.get();
             case "uranium" -> ModItems.URANIUM_SEEDS.get();
             default -> ModItems.ZINC_SEEDS.get(); //Make the last case the default

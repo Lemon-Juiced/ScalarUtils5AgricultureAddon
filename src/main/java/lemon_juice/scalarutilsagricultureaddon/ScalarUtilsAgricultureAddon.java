@@ -15,7 +15,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(ScalarUtilsAgricultureAddon.MOD_ID)
 public class ScalarUtilsAgricultureAddon {
     public static final String MOD_ID = "scalar_utils_agriculture_addon";
-    //private static final Logger LOGGER = LogUtils.getLogger();
 
     public ScalarUtilsAgricultureAddon() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

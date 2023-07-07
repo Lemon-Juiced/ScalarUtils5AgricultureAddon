@@ -17,6 +17,7 @@ public class ModItems {
     public static final RegistryObject<Item> APATITE_SEEDS = ITEMS.register("apatite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.APATITE_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> BRASS_SEEDS = ITEMS.register("brass_seeds", () -> new AbstractBaseSeedItem(ModBlocks.BRASS_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> BRONZE_SEEDS = ITEMS.register("bronze_seeds", () -> new AbstractBaseSeedItem(ModBlocks.BRONZE_CROP.get(), new Item.Properties(), 1));
+    public static final RegistryObject<Item> CERTUS_QUARTZ_SEEDS = ITEMS.register("certus_quartz_seeds", () -> new AbstractBaseSeedItem(ModBlocks.CERTUS_QUARTZ_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> COAL_SEEDS = ITEMS.register("coal_seeds", () -> new AbstractBaseSeedItem(ModBlocks.COAL_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> COBALT_SEEDS = ITEMS.register("cobalt_seeds", () -> new AbstractBaseSeedItem(ModBlocks.COBALT_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> CONSTANTAN_SEEDS = ITEMS.register("constantan_seeds", () -> new AbstractBaseSeedItem(ModBlocks.CONSTANTAN_CROP.get(), new Item.Properties(), 2));
@@ -45,6 +46,7 @@ public class ModItems {
     public static final RegistryObject<Item> SILICON_SEEDS = ITEMS.register("silicon_seeds", () -> new AbstractBaseSeedItem(ModBlocks.SILICON_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> SILVER_SEEDS = ITEMS.register("silver_seeds", () -> new AbstractBaseSeedItem(ModBlocks.SILVER_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> STEEL_SEEDS = ITEMS.register("steel_seeds", () -> new AbstractBaseSeedItem(ModBlocks.STEEL_CROP.get(), new Item.Properties(), 2));
+    public static final RegistryObject<Item> SULFUR_SEEDS = ITEMS.register("sulfur_seeds", () -> new AbstractBaseSeedItem(ModBlocks.SULFUR_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> TIN_SEEDS = ITEMS.register("tin_seeds", () -> new AbstractBaseSeedItem(ModBlocks.TIN_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> URANIUM_SEEDS = ITEMS.register("uranium_seeds", () -> new AbstractBaseSeedItem(ModBlocks.URANIUM_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> ZINC_SEEDS = ITEMS.register("zinc_seeds", () -> new AbstractBaseSeedItem(ModBlocks.ZINC_CROP.get(), new Item.Properties(), 2));
