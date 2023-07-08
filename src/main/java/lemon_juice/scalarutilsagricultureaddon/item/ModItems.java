@@ -18,6 +18,7 @@ public class ModItems {
     public static final RegistryObject<Item> BRASS_SEEDS = ITEMS.register("brass_seeds", () -> new AbstractBaseSeedItem(ModBlocks.BRASS_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> BRONZE_SEEDS = ITEMS.register("bronze_seeds", () -> new AbstractBaseSeedItem(ModBlocks.BRONZE_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> CERTUS_QUARTZ_SEEDS = ITEMS.register("certus_quartz_seeds", () -> new AbstractBaseSeedItem(ModBlocks.CERTUS_QUARTZ_CROP.get(), new Item.Properties(), 2));
+    public static final RegistryObject<Item> CHARGED_CERTUS_QUARTZ_SEEDS = ITEMS.register("charged_certus_quartz_seeds", () -> new AbstractBaseSeedItem(ModBlocks.CHARGED_CERTUS_QUARTZ_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> COAL_SEEDS = ITEMS.register("coal_seeds", () -> new AbstractBaseSeedItem(ModBlocks.COAL_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> COBALT_SEEDS = ITEMS.register("cobalt_seeds", () -> new AbstractBaseSeedItem(ModBlocks.COBALT_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> CONSTANTAN_SEEDS = ITEMS.register("constantan_seeds", () -> new AbstractBaseSeedItem(ModBlocks.CONSTANTAN_CROP.get(), new Item.Properties(), 2));

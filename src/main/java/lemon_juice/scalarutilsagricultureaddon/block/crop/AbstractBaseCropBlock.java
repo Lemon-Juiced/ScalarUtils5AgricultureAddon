@@ -42,6 +42,7 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "brass" -> ModItems.BRASS_SEEDS.get();
             case "bronze" -> ModItems.BRONZE_SEEDS.get();
             case "certus_quartz" -> ModItems.CERTUS_QUARTZ_SEEDS.get();
+            case "charged_ertus_quartz" -> ModItems.CHARGED_CERTUS_QUARTZ_SEEDS.get();
             case "coal" -> ModItems.COAL_SEEDS.get();
             case "cobalt" -> ModItems.COBALT_SEEDS.get();
             case "constantan" -> ModItems.CONSTANTAN_SEEDS.get();

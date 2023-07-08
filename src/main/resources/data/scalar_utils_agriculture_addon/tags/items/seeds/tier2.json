@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "scalar_utils_agriculture_addon:certus_quartz_seeds",
+    "scalar_utils_agriculture_addon:charged_certus_quartz_seeds",
     "scalar_utils_agriculture_addon:constantan_seeds",
     "scalar_utils_agriculture_addon:electrum_seeds",
     "scalar_utils_agriculture_addon:glowstone_seeds",
