@@ -3,6 +3,7 @@ package lemon_juice.scalarutilsagricultureaddon;
 import lemon_juice.scalarutilsagricultureaddon.block.ModBlocks;
 import lemon_juice.scalarutilsagricultureaddon.creativetab.ModCreativeTab;
 import lemon_juice.scalarutilsagricultureaddon.item.ModItems;
+import lemon_juice.scalarutilsagricultureaddon.util.ModCompostables;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -27,12 +28,17 @@ public class ScalarUtilsAgricultureAddon {
         ModCreativeTab.register(modEventBus);
         modEventBus.addListener(ModCreativeTab::registerTabs);
 
+        // Calls commonSetup (Compostables)
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            //Register Compostables
+            ModCompostables.setup(event);
+        });
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
