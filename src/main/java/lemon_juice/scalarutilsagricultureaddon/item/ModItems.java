@@ -26,6 +26,7 @@ public class ModItems {
     public static final RegistryObject<Item> DIAMOND_SEEDS = ITEMS.register("diamond_seeds", () -> new AbstractBaseSeedItem(ModBlocks.DIAMOND_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> ELECTRUM_SEEDS = ITEMS.register("electrum_seeds", () -> new AbstractBaseSeedItem(ModBlocks.ELECTRUM_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> EMERALD_SEEDS = ITEMS.register("emerald_seeds", () -> new AbstractBaseSeedItem(ModBlocks.EMERALD_CROP.get(), new Item.Properties(), 3));
+    public static final RegistryObject<Item> FLUIX_CRYSTAL_SEEDS = ITEMS.register("fluix_crystal_seeds", () -> new AbstractBaseSeedItem(ModBlocks.FLUIX_CRYSTAL_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> GLOWSTONE_SEEDS = ITEMS.register("glowstone_seeds", () -> new AbstractBaseSeedItem(ModBlocks.GLOWSTONE_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> GOLD_SEEDS = ITEMS.register("gold_seeds", () -> new AbstractBaseSeedItem(ModBlocks.GOLD_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> INVAR_SEEDS = ITEMS.register("invar_seeds", () -> new AbstractBaseSeedItem(ModBlocks.INVAR_CROP.get(), new Item.Properties(), 2));

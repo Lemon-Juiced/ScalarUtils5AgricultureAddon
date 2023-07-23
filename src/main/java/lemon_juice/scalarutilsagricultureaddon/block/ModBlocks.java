@@ -31,6 +31,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> COPPER_CROP = registerBlockWithoutBlockItem("copper_crop", () -> new AbstractBaseCropBlock("copper", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> DIAMOND_CROP = registerBlockWithoutBlockItem("diamond_crop", () -> new AbstractBaseCropBlock("diamond", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> ELECTRUM_CROP = registerBlockWithoutBlockItem("electrum_crop", () -> new AbstractBaseCropBlock("electrum", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+    public static final RegistryObject<Block> FLUIX_CRYSTAL_CROP = registerBlockWithoutBlockItem("fluix_crystal_crop", () -> new AbstractBaseCropBlock("fluix_crystal", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> EMERALD_CROP = registerBlockWithoutBlockItem("emerald_crop", () -> new AbstractBaseCropBlock("emerald", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> GLOWSTONE_CROP = registerBlockWithoutBlockItem("glowstone_crop", () -> new AbstractBaseCropBlock("glowstone", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().lightLevel((p_50874_) -> {return 15;})));
     public static final RegistryObject<Block> GOLD_CROP = registerBlockWithoutBlockItem("gold_crop", () -> new AbstractBaseCropBlock("gold", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));

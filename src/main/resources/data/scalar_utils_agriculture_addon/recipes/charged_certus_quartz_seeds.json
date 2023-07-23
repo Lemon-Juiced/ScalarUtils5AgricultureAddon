@@ -10,7 +10,7 @@
       "tag": "forge:storage_blocks/charged_certus_quartz"
     },
     "S": {
-      "item": "minecraft:wheat_seeds"
+      "tag": "scalar_utils_agriculture_addon:seeds/tier1"
     }
   },
   "result": {

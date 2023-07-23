@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:storage_blocks/certus_quartz"
+      "tag": "forge:storage_blocks/fluix_crystal"
     },
     "S": {
       "tag": "scalar_utils_agriculture_addon:seeds/tier1"
     }
   },
   "result": {
-    "item": "scalar_utils_agriculture_addon:certus_quartz_seeds",
+    "item": "scalar_utils_agriculture_addon:fluix_crystal_seeds",
     "count": 1
   }
 }

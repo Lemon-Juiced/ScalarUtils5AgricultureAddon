@@ -50,6 +50,7 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "diamond" -> ModItems.DIAMOND_SEEDS.get();
             case "electrum" -> ModItems.ELECTRUM_SEEDS.get();
             case "emerald" -> ModItems.EMERALD_SEEDS.get();
+            case "fluix_crystal" -> ModItems.FLUIX_CRYSTAL_SEEDS.get();
             case "glowstone" -> ModItems.GLOWSTONE_SEEDS.get();
             case "gold" -> ModItems.GOLD_SEEDS.get();
             case "invar" -> ModItems.INVAR_SEEDS.get();
