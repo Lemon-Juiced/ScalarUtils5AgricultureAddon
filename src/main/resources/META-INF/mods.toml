@@ -1,44 +1,42 @@
 modLoader="javafml"
-loaderVersion="[47,)"
-license="GNU General Purpose License v3 (GPLv3)"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
 
 [[mods]]
-modId="scalar_utils_agriculture_addon"
-version="1.20.1-5.3.5"
-displayName="Scalar Utils 5: Agriculture Addon"
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
 logoFile="scalarutils5agriculture_addon.png"
-authors="Lemon_Juiced & Scalar Team"
+authors="${mod_authors}"
+description='''${mod_description}'''
 
-description='''
-Fun Overpowered Agriculture That Doesn't Need To Exist In The Main Mod
-'''
-[[dependencies.scalar_utils_agriculture_addon]]
+[[dependencies.${mod_id}]]
     modId="forge"
     mandatory=true
-    versionRange="[47,)"
+    versionRange="${neo_version_range}"
     ordering="NONE"
     side="BOTH"
-[[dependencies.scalar_utils_agriculture_addon]]
+[[dependencies.${mod_id}]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.scalar_utils_agriculture_addon]]
+[[dependencies.${mod_id}]]
     modId="curios"
     mandatory=true
     versionRange="[5.2.0-beta.3+1.20.1,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.scalar_utils_agriculture_addon]]
-    modId="lemon_core"
+[[dependencies.${mod_id}]]
+    modId="curios"
     mandatory=true
-    versionRange="[1.20.1-1.0.19,)"
+    versionRange="[5.2.0-beta.3+1.20.1,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.scalar_utils_agriculture_addon]]
+[[dependencies.${mod_id}]]
     modId="scalar_utils"
     mandatory=true
-    versionRange="[1.20.1-5.4.7,)"
+    versionRange="[1.20.1-5.4.14,)"
     ordering="NONE"
     side="BOTH"
