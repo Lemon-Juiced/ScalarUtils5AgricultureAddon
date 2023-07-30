@@ -10,7 +10,7 @@
       "item": "minecraft:coal_block"
     },
     "S": {
-      "item": "minecraft:wheat_seeds"
+      "tag": "scalar_utils_agriculture_addon:seeds/tier0"
     }
   },
   "result": {

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#S#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/xychronite"
+    },
+    "S": {
+      "tag": "scalar_utils_agriculture_addon:seeds/tier0"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_agriculture_addon:colorless_xychronite_crystal_seeds",
+    "count": 1
+  }
+}

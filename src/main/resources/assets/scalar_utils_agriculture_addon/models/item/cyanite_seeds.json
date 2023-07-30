@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "scalar_utils_agriculture_addon:item/cyanite_seeds"
+  }
+}

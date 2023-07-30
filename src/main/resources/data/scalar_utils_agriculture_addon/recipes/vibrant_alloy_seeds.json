@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#S#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:storage_blocks/vibrant_alloy"
+    },
+    "S": {
+      "tag": "scalar_utils_agriculture_addon:seeds/tier3"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_agriculture_addon:vibrant_alloy_seeds",
+    "count": 1
+  }
+}

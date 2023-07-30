@@ -6,8 +6,13 @@
     "scalar_utils_agriculture_addon:apatite_seeds",
     "scalar_utils_agriculture_addon:brass_seeds",
     "scalar_utils_agriculture_addon:bronze_seeds",
+    "scalar_utils_agriculture_addon:cinnabar_seeds",
+    "scalar_utils_agriculture_addon:clay_seeds",
     "scalar_utils_agriculture_addon:coal_seeds",
+    "scalar_utils_agriculture_addon:colorless_xychronite_crystal_seeds",
     "scalar_utils_agriculture_addon:copper_seeds",
+    "scalar_utils_agriculture_addon:grains_of_infinity_seeds",
+    "scalar_utils_agriculture_addon:niter_seeds",
     "scalar_utils_agriculture_addon:tin_seeds"
   ]
 }

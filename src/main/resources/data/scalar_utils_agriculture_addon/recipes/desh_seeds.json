@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#S#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:storage_blocks/desh"
+    },
+    "S": {
+      "tag": "scalar_utils_agriculture_addon:seeds/tier2"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_agriculture_addon:desh_seeds",
+    "count": 1
+  }
+}
