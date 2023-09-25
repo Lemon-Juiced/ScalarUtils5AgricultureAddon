@@ -44,6 +44,7 @@ public class ModItems {
     public static final RegistryObject<Item> ENDER_PEARL_SEEDS = ITEMS.register("ender_pearl_seeds", () -> new AbstractBaseSeedItem(ModBlocks.ENDER_PEARL_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> ENDERIUM_SEEDS = ITEMS.register("enderium_seeds", () -> new AbstractBaseSeedItem(ModBlocks.ENDERIUM_CROP.get(), new Item.Properties(), 4));
     public static final RegistryObject<Item> ENERGETIC_ALLOY_SEEDS = ITEMS.register("energetic_alloy_seeds", () -> new AbstractBaseSeedItem(ModBlocks.ENERGETIC_ALLOY_CROP.get(), new Item.Properties(), 3));
+    public static final RegistryObject<Item> ENDER_CRYSTAL_SEEDS = ITEMS.register("ender_crystal_seeds", () -> new AbstractBaseSeedItem(ModBlocks.ENDER_CRYSTAL_CROP.get(), new Item.Properties(), 4));
     public static final RegistryObject<Item> FLUIX_CRYSTAL_SEEDS = ITEMS.register("fluix_crystal_seeds", () -> new AbstractBaseSeedItem(ModBlocks.FLUIX_CRYSTAL_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> GLOWSTONE_SEEDS = ITEMS.register("glowstone_seeds", () -> new AbstractBaseSeedItem(ModBlocks.GLOWSTONE_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> GOLD_SEEDS = ITEMS.register("gold_seeds", () -> new AbstractBaseSeedItem(ModBlocks.GOLD_CROP.get(), new Item.Properties(), 2));
@@ -69,7 +70,9 @@ public class ModItems {
     public static final RegistryObject<Item> OSTRUM_SEEDS = ITEMS.register("ostrum_seeds", () -> new AbstractBaseSeedItem(ModBlocks.OSTRUM_CROP.get(), new Item.Properties(), 4));
     public static final RegistryObject<Item> PERIDOT_SEEDS = ITEMS.register("peridot_seeds", () -> new AbstractBaseSeedItem(ModBlocks.PERIDOT_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> PLATINUM_SEEDS = ITEMS.register("platinum_seeds", () -> new AbstractBaseSeedItem(ModBlocks.PLATINUM_CROP.get(), new Item.Properties(), 3));
+    public static final RegistryObject<Item> PRESCIENT_CRYSTAL_SEEDS = ITEMS.register("prescient_crystal_seeds", () -> new AbstractBaseSeedItem(ModBlocks.PRESCIENT_CRYSTAL_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> PULSATING_ALLOY_SEEDS = ITEMS.register("pulsating_alloy_seeds", () -> new AbstractBaseSeedItem(ModBlocks.PULSATING_ALLOY_CROP.get(), new Item.Properties(), 3));
+    public static final RegistryObject<Item> PULSATING_CRYSTAL_SEEDS = ITEMS.register("pulsating_crystal_seeds", () -> new AbstractBaseSeedItem(ModBlocks.PULSATING_CRYSTAL_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> REDSTONE_SEEDS = ITEMS.register("redstone_seeds", () -> new AbstractBaseSeedItem(ModBlocks.REDSTONE_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> REDSTONE_ALLOY_SEEDS = ITEMS.register("redstone_alloy_seeds", () -> new AbstractBaseSeedItem(ModBlocks.REDSTONE_ALLOY_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> REFINED_IRON_SEEDS = ITEMS.register("refined_iron_seeds", () -> new AbstractBaseSeedItem(ModBlocks.REFINED_IRON_CROP.get(), new Item.Properties(), 2));
@@ -88,6 +91,7 @@ public class ModItems {
     public static final RegistryObject<Item> TUNGSTEN_SEEDS = ITEMS.register("tungsten_seeds", () -> new AbstractBaseSeedItem(ModBlocks.TUNGSTEN_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> URANIUM_SEEDS = ITEMS.register("uranium_seeds", () -> new AbstractBaseSeedItem(ModBlocks.URANIUM_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> VIBRANT_ALLOY_SEEDS = ITEMS.register("vibrant_alloy_seeds", () -> new AbstractBaseSeedItem(ModBlocks.VIBRANT_ALLOY_CROP.get(), new Item.Properties(), 4));
+    public static final RegistryObject<Item> VIBRANT_CRYSTAL_SEEDS = ITEMS.register("vibrant_crystal_seeds", () -> new AbstractBaseSeedItem(ModBlocks.VIBRANT_CRYSTAL_CROP.get(), new Item.Properties(), 4));
     public static final RegistryObject<Item> ZINC_SEEDS = ITEMS.register("zinc_seeds", () -> new AbstractBaseSeedItem(ModBlocks.ZINC_CROP.get(), new Item.Properties(), 2));
 
     public static void register(IEventBus eventBus){

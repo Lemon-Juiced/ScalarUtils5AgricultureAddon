@@ -65,6 +65,7 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "electrum" -> ModItems.ELECTRUM_SEEDS.get();
             case "emerald" -> ModItems.EMERALD_SEEDS.get();
             case "end_steel" -> ModItems.END_STEEL_SEEDS.get();
+            case "ender_crystal" -> ModItems.ENDER_CRYSTAL_SEEDS.get();
             case "ender_pearl" -> ModItems.ENDER_PEARL_SEEDS.get();
             case "enderium" -> ModItems.ENDERIUM_SEEDS.get();
             case "energetic_alloy" -> ModItems.ENERGETIC_ALLOY_SEEDS.get();
@@ -93,7 +94,9 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "ostrum" -> ModItems.OSTRUM_SEEDS.get();
             case "peridot" -> ModItems.PERIDOT_SEEDS.get();
             case "platinum" -> ModItems.PLATINUM_SEEDS.get();
+            case "prescient_crystal" -> ModItems.PRESCIENT_CRYSTAL_SEEDS.get();
             case "pulsating_alloy" -> ModItems.PULSATING_ALLOY_SEEDS.get();
+            case "pulsating_crystal" -> ModItems.PULSATING_CRYSTAL_SEEDS.get();
             case "redstone" -> ModItems.REDSTONE_SEEDS.get();
             case "redstone_alloy" -> ModItems.REDSTONE_ALLOY_SEEDS.get();
             case "refined_iron" -> ModItems.REFINED_IRON_SEEDS.get();
@@ -112,6 +115,7 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "tungsten" -> ModItems.TUNGSTEN_SEEDS.get();
             case "uranium" -> ModItems.URANIUM_SEEDS.get();
             case "vibrant_alloy" -> ModItems.VIBRANT_ALLOY_SEEDS.get();
+            case "vibrant_crystal" -> ModItems.VIBRANT_CRYSTAL_SEEDS.get();
             default -> ModItems.ZINC_SEEDS.get(); //Make the last case the default
         };
     }

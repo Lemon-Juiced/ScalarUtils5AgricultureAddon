@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "scalar_utils_agriculture_addon:block/prescient_crystal_stage3"
+  },
+  "render_type": "cutout"
+}
