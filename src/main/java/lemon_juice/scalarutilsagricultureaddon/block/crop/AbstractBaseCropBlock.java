@@ -113,6 +113,7 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "sulfur" -> ModItems.SULFUR_SEEDS.get();
             case "tin" -> ModItems.TIN_SEEDS.get();
             case "tungsten" -> ModItems.TUNGSTEN_SEEDS.get();
+            case "umbralite" -> ModItems.UMBRALITE_SEEDS.get();
             case "uranium" -> ModItems.URANIUM_SEEDS.get();
             case "vibrant_alloy" -> ModItems.VIBRANT_ALLOY_SEEDS.get();
             case "vibrant_crystal" -> ModItems.VIBRANT_CRYSTAL_SEEDS.get();

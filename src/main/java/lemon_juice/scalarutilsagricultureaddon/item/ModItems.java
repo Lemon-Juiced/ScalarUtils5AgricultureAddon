@@ -89,6 +89,7 @@ public class ModItems {
     public static final RegistryObject<Item> SULFUR_SEEDS = ITEMS.register("sulfur_seeds", () -> new AbstractBaseSeedItem(ModBlocks.SULFUR_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> TIN_SEEDS = ITEMS.register("tin_seeds", () -> new AbstractBaseSeedItem(ModBlocks.TIN_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> TUNGSTEN_SEEDS = ITEMS.register("tungsten_seeds", () -> new AbstractBaseSeedItem(ModBlocks.TUNGSTEN_CROP.get(), new Item.Properties(), 3));
+    public static final RegistryObject<Item> UMBRALITE_SEEDS = ITEMS.register("umbralite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.UMBRALITE_CROP.get(), new Item.Properties(), 5));
     public static final RegistryObject<Item> URANIUM_SEEDS = ITEMS.register("uranium_seeds", () -> new AbstractBaseSeedItem(ModBlocks.URANIUM_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> VIBRANT_ALLOY_SEEDS = ITEMS.register("vibrant_alloy_seeds", () -> new AbstractBaseSeedItem(ModBlocks.VIBRANT_ALLOY_CROP.get(), new Item.Properties(), 4));
     public static final RegistryObject<Item> VIBRANT_CRYSTAL_SEEDS = ITEMS.register("vibrant_crystal_seeds", () -> new AbstractBaseSeedItem(ModBlocks.VIBRANT_CRYSTAL_CROP.get(), new Item.Properties(), 4));

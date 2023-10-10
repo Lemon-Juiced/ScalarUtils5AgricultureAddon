@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "scalar_utils_agriculture_addon:necronite_seeds"
+    "scalar_utils_agriculture_addon:necronite_seeds",
+    "scalar_utils_agriculture_addon:umbralite_seeds"
   ]
 }
