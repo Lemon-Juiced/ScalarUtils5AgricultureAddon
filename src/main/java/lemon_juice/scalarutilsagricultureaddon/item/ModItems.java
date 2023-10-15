@@ -18,6 +18,7 @@ public class ModItems {
     public static final RegistryObject<Item> APATITE_SEEDS = ITEMS.register("apatite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.APATITE_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> BENITOITE_SEEDS = ITEMS.register("benitoite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.BENITOITE_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> BLUTONIUM_SEEDS = ITEMS.register("blutonium_seeds", () -> new AbstractBaseSeedItem(ModBlocks.BLUTONIUM_CROP.get(), new Item.Properties(), 2));
+    public static final RegistryObject<Item> BLUTSTEIN_SEEDS = ITEMS.register("blutstein_seeds", () -> new AbstractBaseSeedItem(ModBlocks.BLUTSTEIN_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> BRASS_SEEDS = ITEMS.register("brass_seeds", () -> new AbstractBaseSeedItem(ModBlocks.BRASS_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> BRONZE_SEEDS = ITEMS.register("bronze_seeds", () -> new AbstractBaseSeedItem(ModBlocks.BRONZE_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> CALORITE_SEEDS = ITEMS.register("calorite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.CALORITE_CROP.get(), new Item.Properties(), 4));
@@ -94,6 +95,7 @@ public class ModItems {
     public static final RegistryObject<Item> VIBRANT_ALLOY_SEEDS = ITEMS.register("vibrant_alloy_seeds", () -> new AbstractBaseSeedItem(ModBlocks.VIBRANT_ALLOY_CROP.get(), new Item.Properties(), 4));
     public static final RegistryObject<Item> VIBRANT_CRYSTAL_SEEDS = ITEMS.register("vibrant_crystal_seeds", () -> new AbstractBaseSeedItem(ModBlocks.VIBRANT_CRYSTAL_CROP.get(), new Item.Properties(), 4));
     public static final RegistryObject<Item> ZINC_SEEDS = ITEMS.register("zinc_seeds", () -> new AbstractBaseSeedItem(ModBlocks.ZINC_CROP.get(), new Item.Properties(), 2));
+    public static final RegistryObject<Item> ZWEIITE_SEEDS = ITEMS.register("zweiite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.ZWEIITE_CROP.get(), new Item.Properties(), 3));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

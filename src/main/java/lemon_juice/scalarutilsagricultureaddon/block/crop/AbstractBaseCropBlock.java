@@ -42,6 +42,7 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "apatite" -> ModItems.APATITE_SEEDS.get();
             case "benitoite" -> ModItems.BENITOITE_SEEDS.get();
             case "blutonium" -> ModItems.BLUTONIUM_SEEDS.get();
+            case "blutstein" -> ModItems.BLUTSTEIN_SEEDS.get();
             case "brass" -> ModItems.BRASS_SEEDS.get();
             case "bronze" -> ModItems.BRONZE_SEEDS.get();
             case "calorite" -> ModItems.CALORITE_SEEDS.get();
@@ -116,8 +117,8 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "umbralite" -> ModItems.UMBRALITE_SEEDS.get();
             case "uranium" -> ModItems.URANIUM_SEEDS.get();
             case "vibrant_alloy" -> ModItems.VIBRANT_ALLOY_SEEDS.get();
-            case "vibrant_crystal" -> ModItems.VIBRANT_CRYSTAL_SEEDS.get();
-            default -> ModItems.ZINC_SEEDS.get(); //Make the last case the default
+            case "zinc" -> ModItems.ZINC_SEEDS.get();
+            default -> ModItems.ZWEIITE_SEEDS.get(); //Make the last case the default
         };
     }
 }

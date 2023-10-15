@@ -5,6 +5,7 @@
   "item.scalar_utils_agriculture_addon.apatite_seeds": "Apatite Seeds",
   "item.scalar_utils_agriculture_addon.benitoite_seeds": "Benitoite Seeds",
   "item.scalar_utils_agriculture_addon.blutonium_seeds": "Blutonium Seeds",
+  "item.scalar_utils_agriculture_addon.blutstein_seeds": "Blutstein Seeds",
   "item.scalar_utils_agriculture_addon.brass_seeds": "Brass Seeds",
   "item.scalar_utils_agriculture_addon.bronze_seeds": "Bronze Seeds",
   "item.scalar_utils_agriculture_addon.calorite_seeds": "Calorite Seeds",
@@ -81,6 +82,7 @@
   "item.scalar_utils_agriculture_addon.vibrant_alloy_seeds": "Vibrant Alloy Seeds",
   "item.scalar_utils_agriculture_addon.vibrant_crystal_seeds": "Vibrant Crystal Seeds",
   "item.scalar_utils_agriculture_addon.zinc_seeds": "Zinc Seeds",
+  "item.scalar_utils_agriculture_addon.zweiite_seeds": "Zweiite Seeds",
 
   "block.scalar_utils_agriculture_addon.aluminum_crop": "Aluminum Crop",
   "block.scalar_utils_agriculture_addon.amethyst_crop": "Amethyst Crop",
@@ -88,6 +90,7 @@
   "block.scalar_utils_agriculture_addon.apatite_crop": "Apatite Crop",
   "block.scalar_utils_agriculture_addon.benitoite_crop": "Benitoite Crop",
   "block.scalar_utils_agriculture_addon.blutonium_crop": "Blutonium Crop",
+  "block.scalar_utils_agriculture_addon.blutstein_crop": "Blutstein Crop",
   "block.scalar_utils_agriculture_addon.brass_crop": "Brass Crop",
   "block.scalar_utils_agriculture_addon.bronze_crop": "Bronze Crop",
   "block.scalar_utils_agriculture_addon.calorite_crop": "Calorite Crop",
@@ -163,13 +166,14 @@
   "block.scalar_utils_agriculture_addon.vibrant_alloy_crop": "Vibrant Alloy Crop",
   "block.scalar_utils_agriculture_addon.vibrant_crystal_crop": "Vibrant Crystal Crop",
   "block.scalar_utils_agriculture_addon.zinc_crop": "Zinc Crop",
+  "block.scalar_utils_agriculture_addon.zweiite_crop": "Zweiite Crop",
 
-  "base_seed.tooltip": "If You Are Seeing This, Something Went Terribly Wrong!",
-  "t1_seed.tooltip": "Tier 1",
-  "t2_seed.tooltip": "Tier 2",
-  "t3_seed.tooltip": "Tier 3",
-  "t4_seed.tooltip": "Tier 4",
-  "t5_seed.tooltip": "Tier 5",
+  "tooltip.scalar_utils_agriculture_addon.base_seed": "If You Are Seeing This, Something Went Terribly Wrong!",
+  "tooltip.scalar_utils_agriculture_addon.t1_seed": "Tier 1",
+  "tooltip.scalar_utils_agriculture_addon.t2_seed": "Tier 2",
+  "tooltip.scalar_utils_agriculture_addon.t3_seed": "Tier 3",
+  "tooltip.scalar_utils_agriculture_addon.t4_seed": "Tier 4",
+  "tooltip.scalar_utils_agriculture_addon.t5_seed": "Tier 5",
 
 
   "itemGroup.scalar_utils_agriculture_addon": "Scalar Utils 5: Agriculture Addon"

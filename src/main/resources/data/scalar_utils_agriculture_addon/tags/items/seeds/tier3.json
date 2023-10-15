@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "scalar_utils_agriculture_addon:blutstein_seeds",
     "scalar_utils_agriculture_addon:cobalt_seeds",
     "scalar_utils_agriculture_addon:conductive_alloy_seeds",
     "scalar_utils_agriculture_addon:dark_steel_seeds",
@@ -25,6 +26,7 @@
     "scalar_utils_agriculture_addon:rose_gold_seeds",
     "scalar_utils_agriculture_addon:signalum_seeds",
     "scalar_utils_agriculture_addon:soularium_seeds",
-    "scalar_utils_agriculture_addon:tungsten_seeds"
+    "scalar_utils_agriculture_addon:tungsten_seeds",
+    "scalar_utils_agriculture_addon:zweiite_seeds"
   ]
 }
