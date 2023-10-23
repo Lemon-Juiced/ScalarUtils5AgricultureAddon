@@ -98,9 +98,9 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "prescient_crystal" -> ModItems.PRESCIENT_CRYSTAL_SEEDS.get();
             case "pulsating_alloy" -> ModItems.PULSATING_ALLOY_SEEDS.get();
             case "pulsating_crystal" -> ModItems.PULSATING_CRYSTAL_SEEDS.get();
+            case "quartz_enriched_iron" -> ModItems.QUARTZ_ENRICHED_IRON_SEEDS.get();
             case "redstone" -> ModItems.REDSTONE_SEEDS.get();
             case "redstone_alloy" -> ModItems.REDSTONE_ALLOY_SEEDS.get();
-            case "refined_iron" -> ModItems.REFINED_IRON_SEEDS.get();
             case "ridiculite" -> ModItems.RIDICULITE_SEEDS.get();
             case "rose_gold" -> ModItems.ROSE_GOLD_SEEDS.get();
             case "rose_quartz" -> ModItems.ROSE_QUARTZ_SEEDS.get();

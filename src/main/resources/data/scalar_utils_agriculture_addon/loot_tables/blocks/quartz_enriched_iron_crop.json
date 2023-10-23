@@ -16,18 +16,18 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "block": "scalar_utils_agriculture_addon:refined_iron_crop",
+                  "block": "scalar_utils_agriculture_addon:quartz_enriched_iron_crop",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "3"
                   }
                 }
               ],
-              "name": "lemon_core:refined_iron_nugget"
+              "name": "lemon_core:quartz_enriched_iron_nugget"
             },
             {
               "type": "minecraft:item",
-              "name": "scalar_utils_agriculture_addon:refined_iron_seeds"
+              "name": "scalar_utils_agriculture_addon:quartz_enriched_iron_seeds"
             }
           ]
         }
@@ -38,7 +38,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "scalar_utils_agriculture_addon:refined_iron_crop",
+          "block": "scalar_utils_agriculture_addon:quartz_enriched_iron_crop",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "3"
@@ -59,11 +59,11 @@
               }
             }
           ],
-          "name": "scalar_utils_agriculture_addon:refined_iron_seeds"
+          "name": "scalar_utils_agriculture_addon:quartz_enriched_iron_seeds"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "scalar_utils_agriculture_addon:blocks/refined_iron_crop"
+  "random_sequence": "scalar_utils_agriculture_addon:blocks/quartz_enriched_iron_crop"
 }

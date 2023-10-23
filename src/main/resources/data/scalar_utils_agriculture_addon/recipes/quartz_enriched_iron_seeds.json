@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:storage_blocks/refined_iron"
+      "tag": "forge:storage_blocks/quartz_enriched_iron"
     },
     "S": {
       "tag": "scalar_utils_agriculture_addon:seeds/tier1"
     }
   },
   "result": {
-    "item": "scalar_utils_agriculture_addon:refined_iron_seeds",
+    "item": "scalar_utils_agriculture_addon:quartz_enriched_iron_seeds",
     "count": 1
   }
 }
