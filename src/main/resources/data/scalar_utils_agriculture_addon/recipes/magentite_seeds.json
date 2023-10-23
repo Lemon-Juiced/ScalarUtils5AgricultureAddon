@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:storage_blocks/magnetite"
+      "tag": "forge:storage_blocks/magentite"
     },
     "S": {
       "tag": "scalar_utils_agriculture_addon:seeds/tier2"
     }
   },
   "result": {
-    "item": "scalar_utils_agriculture_addon:magnetite_seeds",
+    "item": "scalar_utils_agriculture_addon:magentite_seeds",
     "count": 1
   }
 }

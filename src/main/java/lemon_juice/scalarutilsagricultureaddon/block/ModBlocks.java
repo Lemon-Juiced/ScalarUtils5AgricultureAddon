@@ -57,6 +57,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> GOLD_CROP = registerBlockWithoutBlockItem("gold_crop", () -> new AbstractBaseCropBlock("gold", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> GRAINS_OF_INFINITY_CROP = registerBlockWithoutBlockItem("grains_of_infinity_crop", () -> new AbstractBaseCropBlock("grains_of_infinity", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> GRAPHITE_CROP = registerBlockWithoutBlockItem("graphite_crop", () -> new AbstractBaseCropBlock("graphite", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+    public static final RegistryObject<Block> INANITE_CROP = registerBlockWithoutBlockItem("inanite_crop", () -> new AbstractBaseCropBlock("inanite", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> INSANITE_CROP = registerBlockWithoutBlockItem("insanite_crop", () -> new AbstractBaseCropBlock("isanite", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> INVAR_CROP = registerBlockWithoutBlockItem("invar_crop", () -> new AbstractBaseCropBlock("invar", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> IRON_CROP = registerBlockWithoutBlockItem("iron_crop", () -> new AbstractBaseCropBlock("iron", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
@@ -64,7 +65,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> LEAD_CROP = registerBlockWithoutBlockItem("lead_crop", () -> new AbstractBaseCropBlock("lead", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> LUDICRITE_CROP = registerBlockWithoutBlockItem("ludicrite_crop", () -> new AbstractBaseCropBlock("ludicrite", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> LUMIUM_CROP = registerBlockWithoutBlockItem("lumium_crop", () -> new AbstractBaseCropBlock("lumium", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
-    public static final RegistryObject<Block> MAGNETITE_CROP = registerBlockWithoutBlockItem("magnetite_crop", () -> new AbstractBaseCropBlock("magnetite", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+    public static final RegistryObject<Block> MAGENTITE_CROP = registerBlockWithoutBlockItem("magentite_crop", () -> new AbstractBaseCropBlock("magentite", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> MANGANESE_CROP = registerBlockWithoutBlockItem("manganese_crop", () -> new AbstractBaseCropBlock("manganese", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> MANYULLYN_CROP = registerBlockWithoutBlockItem("manyullyn_crop", () -> new AbstractBaseCropBlock("mannyullyn", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> NECRONITE_CROP = registerBlockWithoutBlockItem("necronite_crop", () -> new AbstractBaseCropBlock("necronite", BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));

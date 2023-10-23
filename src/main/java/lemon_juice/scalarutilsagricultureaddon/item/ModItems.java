@@ -51,6 +51,7 @@ public class ModItems {
     public static final RegistryObject<Item> GOLD_SEEDS = ITEMS.register("gold_seeds", () -> new AbstractBaseSeedItem(ModBlocks.GOLD_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> GRAINS_OF_INFINITY_SEEDS = ITEMS.register("grains_of_infinity_seeds", () -> new AbstractBaseSeedItem(ModBlocks.GRAINS_OF_INFINITY_CROP.get(), new Item.Properties(), 1));
     public static final RegistryObject<Item> GRAPHITE_SEEDS = ITEMS.register("graphite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.GRAPHITE_CROP.get(), new Item.Properties(), 2));
+    public static final RegistryObject<Item> INANITE_SEEDS = ITEMS.register("inanite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.INANITE_CROP.get(), new Item.Properties(), 4));
     public static final RegistryObject<Item> INSANITE_SEEDS = ITEMS.register("insanite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.INSANITE_CROP.get(), new Item.Properties(), 4));
     public static final RegistryObject<Item> INVAR_SEEDS = ITEMS.register("invar_seeds", () -> new AbstractBaseSeedItem(ModBlocks.INVAR_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> IRON_SEEDS = ITEMS.register("iron_seeds", () -> new AbstractBaseSeedItem(ModBlocks.IRON_CROP.get(), new Item.Properties(), 2));
@@ -58,7 +59,7 @@ public class ModItems {
     public static final RegistryObject<Item> LEAD_SEEDS = ITEMS.register("lead_seeds", () -> new AbstractBaseSeedItem(ModBlocks.LEAD_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> LUDICRITE_SEEDS = ITEMS.register("ludicrite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.LUDICRITE_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> LUMIUM_SEEDS = ITEMS.register("lumium_seeds", () -> new AbstractBaseSeedItem(ModBlocks.LUMIUM_CROP.get(), new Item.Properties(), 3));
-    public static final RegistryObject<Item> MAGNETITE_SEEDS = ITEMS.register("magnetite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.MAGNETITE_CROP.get(), new Item.Properties(), 3));
+    public static final RegistryObject<Item> MAGENTITE_SEEDS = ITEMS.register("magentite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.MAGENTITE_CROP.get(), new Item.Properties(), 3));
     public static final RegistryObject<Item> MANGANESE_SEEDS = ITEMS.register("manganese_seeds", () -> new AbstractBaseSeedItem(ModBlocks.MANGANESE_CROP.get(), new Item.Properties(), 2));
     public static final RegistryObject<Item> MANYULLYN_SEEDS = ITEMS.register("manyullyn_seeds", () -> new AbstractBaseSeedItem(ModBlocks.MANYULLYN_CROP.get(), new Item.Properties(), 4));
     public static final RegistryObject<Item> NECRONITE_SEEDS = ITEMS.register("necronite_seeds", () -> new AbstractBaseSeedItem(ModBlocks.NECRONITE_CROP.get(), new Item.Properties(), 5, true));

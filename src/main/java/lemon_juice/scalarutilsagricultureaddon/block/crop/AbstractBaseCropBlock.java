@@ -75,6 +75,7 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "gold" -> ModItems.GOLD_SEEDS.get();
             case "grains_of_infinity" -> ModItems.GRAINS_OF_INFINITY_SEEDS.get();
             case "graphite" -> ModItems.GRAPHITE_SEEDS.get();
+            case "inanite" -> ModItems.INANITE_SEEDS.get();
             case "insanite" -> ModItems.INSANITE_SEEDS.get();
             case "invar" -> ModItems.INVAR_SEEDS.get();
             case "iron" -> ModItems.IRON_SEEDS.get();
@@ -82,7 +83,7 @@ public class AbstractBaseCropBlock extends CropBlock {
             case "lead" -> ModItems.LEAD_SEEDS.get();
             case "ludicrite" -> ModItems.LUDICRITE_SEEDS.get();
             case "lumium" -> ModItems.LUMIUM_SEEDS.get();
-            case "magnetite" -> ModItems.MAGNETITE_SEEDS.get();
+            case "magentite" -> ModItems.MAGENTITE_SEEDS.get();
             case "manganese" -> ModItems.MANGANESE_SEEDS.get();
             case "manyullyn" -> ModItems.MANYULLYN_SEEDS.get();
             case "necronite" -> ModItems.NECRONITE_SEEDS.get();
