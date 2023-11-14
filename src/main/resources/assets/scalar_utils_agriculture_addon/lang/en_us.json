@@ -175,8 +175,5 @@
   "tooltip.scalar_utils_agriculture_addon.t2_seed": "Tier 2",
   "tooltip.scalar_utils_agriculture_addon.t3_seed": "Tier 3",
   "tooltip.scalar_utils_agriculture_addon.t4_seed": "Tier 4",
-  "tooltip.scalar_utils_agriculture_addon.t5_seed": "Tier 5",
-
-
-  "itemGroup.scalar_utils_agriculture_addon": "Scalar Utils 5: Agriculture Addon"
+  "tooltip.scalar_utils_agriculture_addon.t5_seed": "Tier 5"
 }
