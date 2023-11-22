@@ -1,9 +1,9 @@
 package lemon_juice.scalarutilsagricultureaddon;
 
-import lemon_juice.scalarutilsagricultureaddon.block.ModBlocks;
-import lemon_juice.scalarutilsagricultureaddon.creativetab.CreativeTabAdditions;
-import lemon_juice.scalarutilsagricultureaddon.item.ModItems;
-import lemon_juice.scalarutilsagricultureaddon.util.ModCompostables;
+import lemon_juice.scalarutilsagricultureaddon.block.ScalarUtilsAgrAddBlocks;
+import lemon_juice.scalarutilsagricultureaddon.creativetab.ScalarUtilsAgrAddCreativeTabAdditions;
+import lemon_juice.scalarutilsagricultureaddon.item.ScalarUtilsAgrAddItems;
+import lemon_juice.scalarutilsagricultureaddon.util.ScalarUtilsAgrAddCompostables;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,12 +21,12 @@ public class ScalarUtilsAgricultureAddon {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register Items & Blocks
-        ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
+        ScalarUtilsAgrAddItems.register(modEventBus);
+        ScalarUtilsAgrAddBlocks.register(modEventBus);
 
         // Register Creative Tab
-        CreativeTabAdditions.register(modEventBus);
-        modEventBus.addListener(CreativeTabAdditions::registerTabs);
+        ScalarUtilsAgrAddCreativeTabAdditions.register(modEventBus);
+        modEventBus.addListener(ScalarUtilsAgrAddCreativeTabAdditions::registerTabs);
 
         // Calls commonSetup (Compostables)
         modEventBus.addListener(this::commonSetup);
@@ -37,7 +37,7 @@ public class ScalarUtilsAgricultureAddon {
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
             //Register Compostables
-            ModCompostables.setup(event);
+            ScalarUtilsAgrAddCompostables.setup(event);
         });
     }
 
