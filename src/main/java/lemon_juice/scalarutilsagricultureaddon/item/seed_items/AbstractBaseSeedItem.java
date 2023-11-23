@@ -29,12 +29,12 @@ public class AbstractBaseSeedItem extends ItemNameBlockItem {
     @Override
     public void appendHoverText(ItemStack itemStack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
         switch (tier) {
-            case 1 -> components.add(Component.translatable("t1_seed.tooltip"));
-            case 2 -> components.add(Component.translatable("t2_seed.tooltip").withStyle(ChatFormatting.YELLOW));
-            case 3 -> components.add(Component.translatable("t3_seed.tooltip").withStyle(ChatFormatting.AQUA));
-            case 4 -> components.add(Component.translatable("t4_seed.tooltip").withStyle(ChatFormatting.LIGHT_PURPLE));
-            case 5 -> components.add(Component.translatable("t5_seed.tooltip").withStyle(ChatFormatting.DARK_PURPLE));
-            default -> components.add(Component.translatable("base_seed.tooltip"));
+            case 1 -> components.add(Component.translatable("tooltip.scalar_utils_agriculture_addon.t1_seed"));
+            case 2 -> components.add(Component.translatable("tooltip.scalar_utils_agriculture_addon.t2_seed").withStyle(ChatFormatting.YELLOW));
+            case 3 -> components.add(Component.translatable("tooltip.scalar_utils_agriculture_addon.t3_seed").withStyle(ChatFormatting.AQUA));
+            case 4 -> components.add(Component.translatable("tooltip.scalar_utils_agriculture_addon.t4_seed").withStyle(ChatFormatting.LIGHT_PURPLE));
+            case 5 -> components.add(Component.translatable("tooltip.scalar_utils_agriculture_addon.t5_seed").withStyle(ChatFormatting.DARK_PURPLE));
+            default -> components.add(Component.translatable("tooltip.scalar_utils_agriculture_addon.base_seed"));
         }
     }
 

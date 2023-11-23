@@ -1,7 +1,7 @@
 {
   "parent": "block/crop",
   "textures": {
-    "crop": "scalar_utils_agriculture_addon:block/refined_iron_stage3"
+    "crop": "scalar_utils_agriculture_addon:block/blutstein_stage3"
   },
   "render_type": "cutout"
 }

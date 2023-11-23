@@ -16,18 +16,18 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "block": "scalar_utils_agriculture_addon:magnetite_crop",
+                  "block": "scalar_utils_agriculture_addon:pulsating_crystal_crop",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "3"
                   }
                 }
               ],
-              "name": "lemon_core:magnetite_nugget"
+              "name": "lemon_core:pulsating_crystal_fragment"
             },
             {
               "type": "minecraft:item",
-              "name": "scalar_utils_agriculture_addon:magnetite_seeds"
+              "name": "scalar_utils_agriculture_addon:pulsating_crystal_seeds"
             }
           ]
         }
@@ -38,7 +38,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "scalar_utils_agriculture_addon:magnetite_crop",
+          "block": "scalar_utils_agriculture_addon:pulsating_crystal_crop",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "3"
@@ -59,11 +59,11 @@
               }
             }
           ],
-          "name": "scalar_utils_agriculture_addon:magnetite_seeds"
+          "name": "scalar_utils_agriculture_addon:pulsating_crystal_seeds"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "scalar_utils_agriculture_addon:blocks/magnetite_crop"
+  "random_sequence": "scalar_utils_agriculture_addon:blocks/pulsating_crystal_crop"
 }

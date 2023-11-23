@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:storage_blocks/refined_iron"
+      "tag": "forge:storage_blocks/vibrant_crystal"
     },
     "S": {
-      "tag": "scalar_utils_agriculture_addon:seeds/tier1"
+      "tag": "scalar_utils_agriculture_addon:seeds/tier3"
     }
   },
   "result": {
-    "item": "scalar_utils_agriculture_addon:refined_iron_seeds",
+    "item": "scalar_utils_agriculture_addon:vibrant_crystal_seeds",
     "count": 1
   }
 }

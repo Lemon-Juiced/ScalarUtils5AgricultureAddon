@@ -3,10 +3,13 @@
   "values": [
     "scalar_utils_agriculture_addon:calorite_seeds",
     "scalar_utils_agriculture_addon:enderium_seeds",
+    "scalar_utils_agriculture_addon:ender_crystal_seeds",
+    "scalar_utils_agriculture_addon:inanite_seeds",
     "scalar_utils_agriculture_addon:insanite_seeds",
     "scalar_utils_agriculture_addon:manyullyn_seeds",
     "scalar_utils_agriculture_addon:netherite_seeds",
     "scalar_utils_agriculture_addon:ostrum_seeds",
-    "scalar_utils_agriculture_addon:vibrant_alloy_seeds"
+    "scalar_utils_agriculture_addon:vibrant_alloy_seeds",
+    "scalar_utils_agriculture_addon:vibrant_crystal_seeds"
   ]
 }

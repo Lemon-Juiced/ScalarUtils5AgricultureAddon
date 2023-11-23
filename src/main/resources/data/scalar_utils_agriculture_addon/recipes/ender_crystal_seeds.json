@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:storage_blocks/magnetite"
+      "tag": "forge:storage_blocks/ender_crystal"
     },
     "S": {
-      "tag": "scalar_utils_agriculture_addon:seeds/tier2"
+      "tag": "scalar_utils_agriculture_addon:seeds/tier3"
     }
   },
   "result": {
-    "item": "scalar_utils_agriculture_addon:magnetite_seeds",
+    "item": "scalar_utils_agriculture_addon:ender_crystal_seeds",
     "count": 1
   }
 }
